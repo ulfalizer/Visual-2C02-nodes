@@ -123,6 +123,7 @@ in_range_3:547,
 //
 
 rendering_enabled:5900,
+pclk0_2:6084,
 
 //
 // Sprite-related (?)
