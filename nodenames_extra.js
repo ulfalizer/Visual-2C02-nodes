@@ -119,6 +119,12 @@ in_range_3:547,
 '+in_range_3':511,
 
 //
+// Palette
+//
+
+'/read_2007_output_palette':1207,
+
+//
 // Misc.
 //
 
