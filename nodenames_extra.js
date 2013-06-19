@@ -40,6 +40,17 @@ var nodenames_extra = {
 '++in_shift_range':5915,
 '++/in_shift_range':949,
 
+// VBlank flag
+
+'/vbl_flag_out':1014,
+'/read_2002_output_vblank_flag':5729,
+'/vbl_flag_read_buffer':5827,
+'vbl_flag_read_buffer_out':5871,
+'/vbl_flag_read_buffer_out_and_read_2002':5778,
+'vbl_flag_read_buffer_out_and_read_2002':5730,
+
+'/enable_nmi':5731,
+
 // Misc.
 
 rendering_enabled:5900,
