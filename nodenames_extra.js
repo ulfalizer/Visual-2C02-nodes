@@ -1,38 +1,12 @@
 var nodenames_extra = {
 
-// vpos decoding logic. '+' denotes buffering on pclk1 (half-cycle delay from
-// vpos change to value change), '++' buffering on pclk1 followed by pclk0
-// (full-cycle delay - one pixel), etc.
-
-vpos_eq_247:845, // Old name was vpos_vsync_end
-vpos_eq_244:846, // Old name was vpos_vsync_start
-
-// Reg, possibly sync-related
-pos_eq_279_244_to_278_247:5819,
-'/pos_eq_279_244_to_278_247':5777,
-
-// Range, possibly sync-related
-// Lines   0-243: 279-303
-// Line      244: 279-340
-// Lines 245-246: Entire line
-// Line      247: 0-303
-// Line  248-261: 279-303
 //
-// Rough sketch (not to scale):
+// vpos decoding logic.
 //
-//          279  303
-//           ------     0
-//           ||||||
-//           ------     243
-//           ---------- 244
-// -------------------- 245
-// -------------------- 246
-// ----------------     247
-//           ------     248
-//           ||||||
-//           ------     261
-'/in_range_1':5804,
-'+/in_range_1':1079,
+// '+' denotes buffering on pclk1 (half-cycle delay from vpos change to value
+// change), '++' buffering on pclk1 followed by pclk0 (full-cycle delay - one
+// pixel), etc.
+//
 
 '+vpos_eq_241_2':5724,
 '+vpos_eq_0':5725,
@@ -81,7 +55,72 @@ pos_eq_279_244_to_278_247:5819,
 
 '/enable_nmi':5731,
 
+//
+// Nodes related to video generation
+//
+
+vpos_eq_247:845, // Old name was vpos_vsync_end
+vpos_eq_244:846, // Old name was vpos_vsync_start
+
+// Reg, possibly sync-related
+pos_eq_279_244_to_278_247:5819,
+'/pos_eq_279_244_to_278_247':5777,
+
+// Lines   0-243: 279-304
+// Line      244: 279-340
+// Lines 245-246: Entire line
+// Line      247: 0-304
+// Line  248-261: 279-304
+//
+// Sketch (not to scale):
+//
+//          279  304
+//           ------             0
+//           ||||||
+//           ------             243
+//           ------------------ 244
+// ---------------------------- 245
+// ---------------------------- 246
+// ----------------             247
+//           ------             248
+//           ||||||
+//           ------             261
+'/in_range_1':5804,
+'+/in_range_1':1079,
+
+//     257   280 304
+//            -----             0
+//            |||||
+//            -----             243
+//            ----------------- 244
+// ------     ----------------- 245
+// ------     ----------------- 246
+// ------     -----             247
+//            -----             248
+//            |||||
+//            -----             261
+in_range_2:915,
+'/in_range_2':5227,
+'+/in_range_2':5157, // -> vid_sync_l
+
+// Another range. Sketch:
+//                   309 323
+//                    -----     0
+//                    -----
+//                    -----     243
+//                              244
+//                              245
+//                              246
+//                    -----     247
+//                    -----     248
+//                    -----
+//                    -----     261
+in_range_3:547,
+'+in_range_3':511,
+
+//
 // Misc.
+//
 
 rendering_enabled:5900,
 }
