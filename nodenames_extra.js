@@ -4,6 +4,9 @@ var nodenames_extra = {
 // vpos change to value change), '++' buffering on pclk1 followed by pclk0
 // (full-cycle delay - one pixel), etc.
 
+vpos_eq_247:845, // Old name was vpos_vsync_end
+vpos_eq_244:846, // Old name was vpos_vsync_start
+
 '+vpos_eq_241_2':5724,
 '+vpos_eq_0':5725,
 '+vpos_eq_240':5726,
