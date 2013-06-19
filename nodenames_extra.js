@@ -135,6 +135,17 @@ in_range_3:547,
 '+++++hpos_eq_339_and_rendering':8700,
 '+++++/hpos_eq_339_and_rendering':1681, // I.e, delayed 2.5 pixels
 
+// Sprite-zero-related
+
+'/sprite_0_on_cur_scanline':1105,
+'/sprite_0_on_next_scanline':5907,
+
+'++/hpos_eq_256_to_319_and_rendering_2':5903,
+'++/hpos_eq_256_to_319_and_rendering_2_and_pclk1':1107,
+
+'++/hpos_eq_65_and_rendering_2':5890,
+'++hpos_eq_65_and_rendering_and_pclk1':5876,
+
 //
 // Misc.
 //
