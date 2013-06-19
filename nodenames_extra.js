@@ -123,6 +123,17 @@ in_range_3:547,
 //
 
 rendering_enabled:5900,
+
+//
+// Sprite-related (?)
+//
+
+'+++hpos_eq_339_and_rendering':8704,
+'+++/hpos_eq_339_and_rendering':8722,
+'++++/hpos_eq_339_and_rendering':8705,
+'++++hpos_eq_339_and_rendering':8715,
+'+++++hpos_eq_339_and_rendering':8700,
+'+++++/hpos_eq_339_and_rendering':1681, // I.e, delayed 2.5 pixels
 }
 
 for (var extra_node in nodenames_extra) {
