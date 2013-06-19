@@ -1,0 +1,55 @@
+var nodenames_extra = {
+
+// vpos decoding logic. '+' denotes buffering on pclk1 (half-cycle delay from
+// vpos change to value change), '++' buffering on pclk1 followed by pclk0
+// (full-cycle delay - one pixel), etc.
+
+'+vpos_eq_241_2':5724,
+'+vpos_eq_0':5725,
+'+vpos_eq_240':5726,
+'+vpos_eq_261_2':5727,
+'+vpos_eq_261_3':5728,
+
+'+/vpos_eq_261_3':1000,
+'++/vpos_eq_261_3':5772,
+// Clears the VBlank, sprite 0, and overflow flags, and interacts with the
+// even/odd frame logic
+'++vpos_eq_261_3':604,
+
+// Reg
+'+vpos_eq_240-261':5816,
+'+/vpos_eq_240-261':5793,
+
+'+/vpos_eq_240-261_2':5829,
+
+'+/vpos_eq_241_2':1015,
+'++/vpos_eq_241_2':5858,
+'++vpos_eq_241_2':5857,
+'+++vpos_eq_241_2':5785,
+
+// Reg
+'+pos_eq_270_261_to_270_241':5821,
+'+/pos_eq_270_261_to_269_241':5820,
+
+'++/pos_eq_270_261_to_269_241':5864,
+'++hpos_eq_270_to_327':5863,
+
+// Line    261: 328-340
+// Lines 0-240: 0-269 and 328-340
+// Line    241: 0-269
+'++in_shift_range':5915,
+'++/in_shift_range':949,
+
+// Misc.
+
+rendering_enabled:5900,
+}
+
+for (var extra_node in nodenames_extra) {
+    // Prefer own versions
+    for (var node in nodenames)
+        if (nodenames[node] == nodenames_extra[extra_node])
+            delete nodenames[node]
+
+    nodenames[extra_node] = nodenames_extra[extra_node];
+}
