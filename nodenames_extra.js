@@ -7,6 +7,19 @@ var nodenames_extra = {
 vpos_eq_247:845, // Old name was vpos_vsync_end
 vpos_eq_244:846, // Old name was vpos_vsync_start
 
+// Reg, possibly sync-related
+pos_eq_279_244_to_278_247:5819,
+'/pos_eq_279_244_to_278_247':5777,
+
+// Range, possibly sync-related
+// Lines   0-243: 279-303
+// Line      244: 279-340
+// Lines 245-246: Entire line
+// Line      247: 0-303
+// Line  248-261: 279-303
+'/in_range_1':5804,
+'+/in_range_1':1079,
+
 '+vpos_eq_241_2':5724,
 '+vpos_eq_0':5725,
 '+vpos_eq_240':5726,
