@@ -139,7 +139,7 @@ in_range_3:547,
 // Misc.
 //
 
-rendering_enabled:5900,
+'/rendering_disabled':5900,
 pclk0_2:6084,
 }
 
