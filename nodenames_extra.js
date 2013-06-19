@@ -125,13 +125,6 @@ in_range_3:547,
 '/read_2007_output_palette':1207,
 
 //
-// Misc.
-//
-
-rendering_enabled:5900,
-pclk0_2:6084,
-
-//
 // Sprite-related (?)
 //
 
@@ -141,6 +134,13 @@ pclk0_2:6084,
 '++++hpos_eq_339_and_rendering':8715,
 '+++++hpos_eq_339_and_rendering':8700,
 '+++++/hpos_eq_339_and_rendering':1681, // I.e, delayed 2.5 pixels
+
+//
+// Misc.
+//
+
+rendering_enabled:5900,
+pclk0_2:6084,
 }
 
 for (var extra_node in nodenames_extra) {
