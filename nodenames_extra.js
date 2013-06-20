@@ -103,7 +103,6 @@ in_range_2:915,
 '/in_range_2':5227,
 '+/in_range_2':5157, // -> vid_sync_l
 
-// Another range. Sketch:
 //                   309 323
 //                    -----     0
 //                    -----
@@ -216,5 +215,5 @@ for (var extra_node in nodenames_extra) {
         if (nodenames[node] == nodenames_extra[extra_node])
             delete nodenames[node]
 
-    nodenames[extra_node] = nodenames_extra[extra_node];
+    nodenames[extra_node] = nodenames_extra[extra_node]
 }
