@@ -255,6 +255,72 @@ rendering_3:509,
 '/spr_size_out':5828,
 
 //
+// vramaddr_v incrementation logic
+//
+
+// Incrementation logic for vramaddr_v. Each group below can be incremented
+// separately.
+
+vramaddr_v14_carry_out:2095, // Unused
+'/vramaddr_v13_carry_out':2096,
+vramaddr_v13_carry_out:2097,
+'/vramaddr_v12_carry_out':2098,
+vramaddr_v12_carry_out:2099,
+'/vramaddr_v12_carry_in':2100,
+vramaddr_v12_carry_in:2101,
+
+vramaddr_v11_carry_out_and_not_rendering:2091,
+'/vramaddr_v11_carry_in':2103,
+vramaddr_v11_carry_in:2104,
+
+vramaddr_v10_carry_out_and_not_rendering:2089,
+'/vramaddr_v10_carry_in':2105,
+vramaddr_v10_carry_in:2093,
+
+vramaddr_v9_carry_out:2107, // Unused
+'/vramaddr_v8_carry_out':2108,
+vramaddr_v8_carry_out:2109,
+'/vramaddr_v7_carry_out':2110,
+vramaddr_v7_carry_out:2111,
+'/vramaddr_v6_carry_out':2112,
+vramaddr_v6_carry_out:2113,
+'/vramaddr_v5_carry_out':2114,
+vramaddr_v5_carry_out:2115,
+'/vramaddr_v5_carry_in':2116,
+//vramaddr_v5_carry_in:2117, // Does other stuff too
+
+vramaddr_v4_carry_out:2118, // Unused
+'/vramaddr_v3_carry_out':2119,
+vramaddr_v3_carry_out:2120,
+'/vramaddr_v2_carry_out':2125,
+vramaddr_v2_carry_out:2121,
+'/vramaddr_v1_carry_out':2122,
+vramaddr_v1_carry_out:2126,
+'/vramaddr_v0_carry_out':2123,
+vramaddr_v0_carry_out:2127,
+'/vramaddr_v0_carry_in':2128,
+vramaddr_v0_carry_in:2129,
+
+// Holds the new value the vramaddr_v bits will have after being incremented
+// (if the carry in for the group is set)
+
+vramaddr_v14_next:9738,
+vramaddr_v13_next:9739,
+vramaddr_v12_next:9740,
+vramaddr_v11_next:9741,
+vramaddr_v10_next:9742,
+vramaddr_v9_next:9743,
+vramaddr_v8_next:9744,
+vramaddr_v7_next:9745,
+vramaddr_v6_next:9746,
+vramaddr_v5_next:9747,
+vramaddr_v4_next:9748,
+vramaddr_v3_next:9749,
+vramaddr_v2_next:9750,
+vramaddr_v1_next:9751,
+vramaddr_v0_next:9752,
+
+//
 // Misc.
 //
 
