@@ -219,14 +219,25 @@ in_range_3:547,
 '/++in_visible_frame_and_hpos_ge_64_and_hpos0_and_rendering':3987,
 '/+++in_visible_frame_and_hpos_ge_64_and_hpos0_and_rendering':3986,
 
-'/spr_addr0':222,
-'/spr_addr1':350,
-'/spr_addr2':180,
-'/spr_addr3':204,
-'/spr_addr4':212,
-'/spr_addr5':223,
-'/spr_addr6':355,
+rendering_3:509,
+
+'++in_visible_frame_and_rendering_and_/hpos0':523, // Not powered
+'++not_rendering_or_in_visible_frame_and_/hpos0':515,
+
 '/spr_addr7':356,
+'/spr_addr6':355,
+'/spr_addr5':223,
+'/spr_addr4':212,
+'/spr_addr3':204,
+'/spr_addr2':180,
+'/spr_addr1':350,
+'/spr_addr0':222,
+
+'/spr_ptr4':689,
+'/spr_ptr3':688,
+'/spr_ptr2':687,
+'/spr_ptr1':681,
+'/spr_ptr0':686,
 
 // Logic below subtractor
 
