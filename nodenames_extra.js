@@ -239,6 +239,24 @@ rendering_3:509,
 '/spr_ptr1':681,
 '/spr_ptr0':686,
 
+'+spr_ptr4_carry_out':608,
+spr_ptr4_carry_out:611,
+'/spr_ptr3_carry_out':624,
+spr_ptr3_carry_out:623,
+'/spr_ptr2_carry_out':622,
+spr_ptr2_carry_out:621,
+'/spr_ptr1_carry_out':620,
+spr_ptr1_carry_out:619,
+'/spr_ptr0_carry_out':618,
+spr_ptr0_carry_out:617,
+'/spr_ptr0_carry_in':616, // Always 0
+
+spr_ptr_next4:4710,
+spr_ptr_next3:4709,
+spr_ptr_next2:4708,
+spr_ptr_next1:4707,
+spr_ptr_next0:4706,
+
 '+++/hpos_eq_63_255_or_339_and_rendering':4548,
 clear_spr_ptr:743, // Also does other stuff
 
