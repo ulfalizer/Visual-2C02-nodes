@@ -257,6 +257,8 @@ spr_ptr_next2:4708,
 spr_ptr_next1:4707,
 spr_ptr_next0:4706,
 
+inc_spr_ptr:735,
+
 // After passing through powered poly (labelled "protection" in Visual 2C02)
 
 '/spr_ptr4_':4152,
