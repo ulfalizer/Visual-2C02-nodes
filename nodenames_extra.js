@@ -213,6 +213,21 @@ in_range_3:547,
 '+vpos_minus_spr_d6':5801,
 '+vpos_minus_spr_d7':5800,
 
+// Logic above subtractor
+
+'++in_visible_frame_and_hpos_ge_64_and_rendering':3825,
+'/++in_visible_frame_and_hpos_ge_64_and_hpos0_and_rendering':3987,
+'/+++in_visible_frame_and_hpos_ge_64_and_hpos0_and_rendering':3986,
+
+'/spr_addr0':222,
+'/spr_addr1':350,
+'/spr_addr2':180,
+'/spr_addr3':204,
+'/spr_addr4':212,
+'/spr_addr5':223,
+'/spr_addr6':355,
+'/spr_addr7':356,
+
 // Logic below subtractor
 
 '+spr_d7_2':5904,
@@ -226,6 +241,8 @@ in_range_3:547,
 '+++/hpos_mod_8_eq_1_and_rendering':5879,
 '+++/hpos_mod_8_eq_1_and_rendering_and_pclk0':1084,
 
+'/spr_size_out':5828,
+
 //
 // Misc.
 //
@@ -233,6 +250,7 @@ in_range_3:547,
 '/rendering_disabled':5900,
 pclk0_2:6084,
 pclk1_2:1064,
+'++hpos0_2':589,
 }
 
 for (var extra_node in nodenames_extra) {
