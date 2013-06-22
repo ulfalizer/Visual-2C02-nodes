@@ -203,7 +203,7 @@ in_range_3:547,
 '+spr_d6_eq_vpos6':976,
 '+spr_d7_eq_vpos7':975,
 
-// Outputs
+// Subtractor outputs
 '+vpos_minus_spr_d0':1039,
 '+vpos_minus_spr_d1':1038,
 '+vpos_minus_spr_d2':1037,
@@ -213,12 +213,26 @@ in_range_3:547,
 '+vpos_minus_spr_d6':5801,
 '+vpos_minus_spr_d7':5800,
 
+// Logic below subtractor
+
+'+spr_d7_2':5904,
+'+/spr_d7_2':5909,
+'+spr_d7_and_/vpos7':5839,
+
+'++/hpos0_2':5872,
+'++hpos0_2_and_pclk_1':1077,
+'++hpos_mod_8_eq_1_and_rendering':5844,
+'++/hpos_mod_8_eq_1_and_rendering':5832,
+'+++/hpos_mod_8_eq_1_and_rendering':5879,
+'+++/hpos_mod_8_eq_1_and_rendering_and_pclk0':1084,
+
 //
 // Misc.
 //
 
 '/rendering_disabled':5900,
 pclk0_2:6084,
+pclk1_2:1064,
 }
 
 for (var extra_node in nodenames_extra) {
