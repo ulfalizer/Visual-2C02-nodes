@@ -145,7 +145,9 @@ in_range_3:547,
 '++/hpos_eq_65_and_rendering_2':5890,
 '++hpos_eq_65_and_rendering_and_pclk1':5876,
 
-// Sprite data from OAM (prolly y coord), buffered on pclk0
+//
+// Sprite data from OAM (prolly y coord) being subtracted from vpos
+//
 
 '+spr_d7':894,
 '+spr_d6':868,
