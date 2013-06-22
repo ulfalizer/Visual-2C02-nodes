@@ -239,6 +239,9 @@ rendering_3:509,
 '/spr_ptr1':681,
 '/spr_ptr0':686,
 
+'+++/hpos_eq_63_255_or_339_and_rendering':4548,
+clear_spr_ptr:743, // Also does other stuff
+
 // Logic below subtractor
 
 '+spr_d7_2':5904,
