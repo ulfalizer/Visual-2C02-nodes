@@ -287,7 +287,6 @@ vramaddr_v6_carry_out:2113,
 '/vramaddr_v5_carry_out':2114,
 vramaddr_v5_carry_out:2115,
 '/vramaddr_v5_carry_in':2116,
-//vramaddr_v5_carry_in:2117, // Does other stuff too
 
 vramaddr_v4_carry_out:2118, // Unused
 '/vramaddr_v3_carry_out':2119,
