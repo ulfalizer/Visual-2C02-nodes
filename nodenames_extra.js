@@ -257,6 +257,19 @@ spr_ptr_next2:4708,
 spr_ptr_next1:4707,
 spr_ptr_next0:4706,
 
+// After passing through powered diffusion (labelled "protection" in Visual 2C02)
+
+'/spr_ptr4_':4152,
+'/spr_ptr3_':4151,
+'/spr_ptr2_':4150,
+'/spr_ptr1_':4149,
+'/spr_ptr0_':4148,
+spr_ptr4_:4322,
+spr_ptr3_:4321,
+spr_ptr2_:4320,
+spr_ptr1_:4319,
+spr_ptr0_:4318,
+
 '+++/hpos_eq_63_255_or_339_and_rendering':4548,
 clear_spr_ptr:743, // Also does other stuff
 
