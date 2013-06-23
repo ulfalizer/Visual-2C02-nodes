@@ -262,6 +262,28 @@ spr_addr1_carry_out:435, // Unused
 spr_addr0_carry_out:450,
 '/spr_addr0_carry_in':449,
 
+// spr_addr after passing through powered poly (labelled "protection" in Visual 2C02)
+'/spr_addr7_':3423,
+'/spr_addr6_':3422,
+'/spr_addr5_':3421,
+'/spr_addr4_':3420,
+'/spr_addr3_':3419,
+'/spr_addr2_':3418,
+'/spr_addr1_':3417,
+'/spr_addr0_':3416,
+spr_addr7_:3505,
+spr_addr6_:3504,
+spr_addr5_:3503,
+spr_addr4_:3502,
+spr_addr3_:3501,
+spr_addr2_:3500,
+spr_addr1_:3499,
+spr_addr0_:3498,
+
+'/spr_addr2_out':39,
+'/spr_addr1_out':51,
+'/spr_addr0_out':57,
+
 '/spr_ptr4':689,
 '/spr_ptr3':688,
 '/spr_ptr2':687,
@@ -288,8 +310,7 @@ spr_ptr_next0:4706,
 
 inc_spr_ptr:735,
 
-// After passing through powered poly (labelled "protection" in Visual 2C02)
-
+// spr_ptr after passing through powered poly (labelled "protection" in Visual 2C02)
 '/spr_ptr4_':4152,
 '/spr_ptr3_':4151,
 '/spr_ptr2_':4150,
