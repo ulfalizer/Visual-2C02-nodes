@@ -233,6 +233,35 @@ rendering_3:509,
 '/spr_addr1':350,
 '/spr_addr0':222,
 
+spr_addr_7_carry_out:455,
+'/spr_addr_7_carry_in':447,
+spr_addr_7_carry_in:446,
+
+spr_addr_6_carry_out:445, // Unused
+'/spr_addr_6_carry_in':432,
+spr_addr_6_carry_in:444,
+
+spr_addr_5_carry_out:443, // Unused
+'/spr_addr_5_carry_in':442,
+spr_addr_5_carry_in:441,
+
+spr_addr_4_carry_out:440, // Unused
+'/spr_addr_4_carry_in':439,
+spr_addr_4_carry_in:438,
+
+spr_addr_3_carry_out:437, // Unused
+'/spr_addr_3_carry_in':436,
+spr_addr_3_carry_in:454,
+
+spr_addr_2_carry_out:453, // Unused
+'/spr_addr_2_carry_in':452,
+spr_addr_2_carry_in:451,
+
+spr_addr1_carry_out:435, // Unused
+'/spr_addr0_carry_out':434,
+spr_addr0_carry_out:450,
+'/spr_addr0_carry_in':449,
+
 '/spr_ptr4':689,
 '/spr_ptr3':688,
 '/spr_ptr2':687,
