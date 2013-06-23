@@ -366,6 +366,23 @@ spr_addr_7_or_spr_ptr4_out:3701,
 
 '/spr_size_out':5828,
 
+// Logic below $2000/$2001 regs
+
+'+++/in_visible_frame_and_rendering':1261,
+bkg_enable_out:1280,
+'/bkg_enable_out':6816,
+spr_enable_out:1267,
+'/spr_enable_out':6817,
+'+++in_clip_area_and_clipping_bg':6738,
+
+// In visible frame, doing render ops, sprites enabled, and not clipping sprites
+'+++do_sprite_render_ops':6850,
+'++++do_sprite_render_ops':6740,
+'++++/do_sprite_render_ops':1283, // Doubly buffered on pclk1?
+
+// In visible frame, doing render ops, bg enabled, and not clipping bg
+'+++do_bg_render_ops':1281,
+
 //
 // vramaddr_v incrementation logic
 //
