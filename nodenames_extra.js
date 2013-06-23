@@ -424,6 +424,12 @@ spr_enable_out:1267,
 '++++do_bg_render_ops':10165,
 '++++/do_bg_render_ops':2606,
 
+// Shifter outputs, with bit selected by fine_x
+tile_l_bit_out:2732,
+tile_h_bit_out:2730,
+attrib_l_bit_out:2729,
+attrib_h_bit_out:2731,
+
 //
 // vramaddr_v incrementation logic
 //
