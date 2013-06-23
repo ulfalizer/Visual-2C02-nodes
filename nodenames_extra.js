@@ -428,6 +428,15 @@ spr_enable_out:1267,
 // (the pull-downs are always low during pclk0)
 pclk0_3:2633,
 
+'/tile_lbuf7':10052,
+'/tile_lbuf6':10051,
+'/tile_lbuf5':10050,
+'/tile_lbuf4':10049,
+'/tile_lbuf3':10048,
+'/tile_lbuf2':10047,
+'/tile_lbuf1':10046,
+'/tile_lbuf0':10045,
+
 // Shifter outputs, with bit selected by fine_x
 tile_l_bit_out:2732,
 tile_h_bit_out:2730,
