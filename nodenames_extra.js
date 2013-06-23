@@ -340,6 +340,17 @@ spr_ptr0_:4318,
 '+++/hpos_eq_63_255_or_339_and_rendering':4548,
 clear_spr_ptr:743, // Also does other stuff
 
+spr_addr_3_or_spr_ptr0_out:3740,
+spr_addr_4_or_spr_ptr1_out:3741,
+spr_addr_5_or_spr_ptr2_out:3742,
+spr_addr_6_or_spr_ptr3_out:3735,
+spr_addr_7_or_spr_ptr4_out:3701,
+'/spr_addr_3_or_spr_ptr0_out':484,
+'/spr_addr_4_or_spr_ptr1_out':491,
+'/spr_addr_5_or_spr_ptr2_out':499,
+'/spr_addr_6_or_spr_ptr3_out':510,
+'/spr_addr_7_or_spr_ptr4_out':545,
+
 // Logic below subtractor
 
 '+spr_d7_2':5904,
