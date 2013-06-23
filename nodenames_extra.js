@@ -53,7 +53,7 @@ var nodenames_extra = {
 '/vbl_flag_read_buffer_out_and_read_2002':5778,
 'vbl_flag_read_buffer_out_and_read_2002':5730,
 
-'/enable_nmi':5731,
+'/enable_nmi_2':5731,
 
 //
 // Nodes related to video generation
