@@ -429,6 +429,24 @@ tile_l_bit_out:2732,
 tile_h_bit_out:2730,
 attrib_l_bit_out:2729,
 attrib_h_bit_out:2731,
+'/tile_l_bit_out':10204,
+'/attrib_l_bit_out':10203,
+'/attrib_h_bit_out':10202,
+
+'+tile_h_bit_out':10145,
+'+/tile_l_bit_out':10144,
+'+/attrib_l_bit_out':10143,
+'+/attrib_h_bit_out':10142,
+
+'+/tile_h_bit_out':10090,
+'+tile_l_bit_out':10089,
+'+attrib_l_bit_out':10088,
+'+attrib_h_bit_out':10087,
+
+'++/tile_h_bit_out':10256,
+'++tile_l_bit_out':10255,
+'++attrib_l_bit_out':10254,
+'++attrib_h_bit_out':10253,
 
 //
 // vramaddr_v incrementation logic
