@@ -383,6 +383,16 @@ spr_enable_out:1267,
 // In visible frame, doing render ops, bg enabled, and not clipping bg
 '+++do_bg_render_ops':1281,
 
+'++/hpos2_2':7073,
+'++/hpos1_2':6996,
+'++/hpos0_2':6997,
+'++/hpos_eq_256_to_319_and_rendering_2':6998,
+
+'++hpos_eq_256_to_319_and_hpos_mod_8_eq_3_and_rendering':1310,
+'++hpos_eq_256_to_319_and_hpos_mod_8_eq_2_and_rendering':1320,
+'++hpos_eq_256_to_319_and_hpos_mod_8_eq_7_and_rendering':1328,
+'++hpos_eq_256_to_319_and_hpos_mod_8_eq_5_and_rendering':1338,
+
 //
 // vramaddr_v incrementation logic
 //
