@@ -295,6 +295,10 @@ spr_addr0_:3498,
 '/spr_addr1_out':51,
 '/spr_addr0_out':57,
 
+'spr_addr_0-1_eq_3':119,
+'spr_addr_0-1_neq_3':120,
+'/spr_load_next_value_or_write_2003_reg':279,
+
 '/spr_ptr4':689,
 '/spr_ptr3':688,
 '/spr_ptr2':687,
