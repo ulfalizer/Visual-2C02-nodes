@@ -424,6 +424,10 @@ spr_enable_out:1267,
 '++++do_bg_render_ops':10165,
 '++++/do_bg_render_ops':2606,
 
+// There are other conditions on this one too, but they don't seem to matter
+// (the pull-downs are always low during pclk0)
+pclk0_3:2633,
+
 // Shifter outputs, with bit selected by fine_x
 tile_l_bit_out:2732,
 tile_h_bit_out:2730,
