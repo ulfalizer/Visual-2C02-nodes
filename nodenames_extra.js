@@ -262,6 +262,17 @@ spr_addr1_carry_out:435, // Unused
 spr_addr0_carry_out:450,
 '/spr_addr0_carry_in':449,
 
+spr_addr_next7:3078,
+spr_addr_next6:3077,
+spr_addr_next5:3076,
+spr_addr_next4:3075,
+spr_addr_next3:3074,
+spr_addr_next2:3073,
+spr_addr_next1:3072,
+spr_addr_next0:3071,
+
+spr_load_next_value:288,
+
 // spr_addr after passing through powered poly (labelled "protection" in Visual 2C02)
 '/spr_addr7_':3423,
 '/spr_addr6_':3422,
