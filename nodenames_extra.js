@@ -556,6 +556,20 @@ vramaddr_v0_next:9752,
 'vramaddr_v0_out':1558,
 
 //
+// Bottom blob of logic (between pins)
+//
+
+rendering_4:10603,
+'++hpos0':10593,
+'/read_2007_output_vrambuf':10578,
+read_2007_output_vrambuf_2:2327,
+'+rendering_and_/hpos0_and_pclk0':10576,
+'+not_rendering':10553,
+'+/not_rendering':10554,
+'_ab_13-8_eq_0_and_rendering':10551,
+'_ab_13-8_eq_0_and_rendering_2':1266,
+
+//
 // Misc.
 //
 
