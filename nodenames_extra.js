@@ -271,7 +271,7 @@ spr_addr_next2:3073,
 spr_addr_next1:3072,
 spr_addr_next0:3071,
 
-spr_load_next_value:288,
+spr_addr_load_next_value:288,
 
 // spr_addr after passing through powered poly (labelled "protection" in Visual 2C02)
 '/spr_addr7_':3423,
