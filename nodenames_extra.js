@@ -568,6 +568,7 @@ read_2007_output_vrambuf_2:2327,
 '+/not_rendering':10554,
 '_ab_13-8_eq_0_and_rendering':10551,
 '_ab_13-8_eq_0_and_rendering_2':1266,
+'/read_2007_trigger':10601,
 
 //
 // Misc.
