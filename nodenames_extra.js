@@ -462,7 +462,7 @@ attrib_h_bit_out:2731,
 '++attrib_h_bit_out':10253,
 
 //
-// vramaddr_v incrementation logic
+// vramaddr_v logic
 //
 
 // Incrementation logic for vramaddr_v. Each group below can be incremented
@@ -525,6 +525,24 @@ vramaddr_v3_next:9749,
 vramaddr_v2_next:9750,
 vramaddr_v1_next:9751,
 vramaddr_v0_next:9752,
+
+// vramaddr_v output signals (renamed from vramaddr_+vN)
+
+'vramaddr_v14_out':2271,
+'vramaddr_v13_out':2272,
+'vramaddr_v12_out':2273,
+'vramaddr_v11_out':2274,
+'vramaddr_v10_out':2275,
+'vramaddr_v9_out':2066,
+'vramaddr_v8_out':2072,
+'vramaddr_v7_out':2076,
+'vramaddr_v6_out':2267,
+'vramaddr_v5_out':2268,
+'vramaddr_v4_out':1538,
+'vramaddr_v3_out':1574,
+'vramaddr_v2_out':1573,
+'vramaddr_v1_out':1565,
+'vramaddr_v0_out':1558,
 
 //
 // Misc.
