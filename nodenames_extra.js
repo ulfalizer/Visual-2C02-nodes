@@ -397,6 +397,17 @@ spr_enable_out:1267,
 '+++hpos_eq_256_to_319_and_hpos_mod_8_eq_7_and_rendering':1330,
 '+++hpos_eq_256_to_319_and_hpos_mod_8_eq_5_and_rendering':1336,
 
+'+vramaddr_v4_out':1541,
+'+vramaddr_v3_out':1570,
+'+vramaddr_v2_out':1559,
+'+vramaddr_v1_out':1556,
+'+vramaddr_v0_out':1551,
+'+/vramaddr_v4_out':1542,
+'+/vramaddr_v3_out':1569,
+'+/vramaddr_v2_out':1563,
+'+/vramaddr_v1_out':1557,
+'+/vramaddr_v0_out':1550,
+
 //
 // BG shifter logic
 //
