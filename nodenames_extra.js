@@ -398,6 +398,33 @@ spr_enable_out:1267,
 '+++hpos_eq_256_to_319_and_hpos_mod_8_eq_5_and_rendering':1336,
 
 //
+// BG shifter logic
+//
+
+'/fine_x0':2723,
+'/fine_x1':2725,
+'/fine_x2':2727,
+
+'++/hpos_eq_0-255_or_320-335_and_hpos_mod_8_eq_4_or_5_and_rendering':2593,
+'++/hpos_eq_0-255_or_320-335_and_rendering_4':10201,
+'++/hpos_eq_0-255_or_320-335_and_rendering_and_pclk1':2722,
+'++/hpos_eq_0-255_or_320-335_and_hpos_mod_8_eq_6_or_7_and_rendering':2632,
+'+/hpos_eq_0-255_or_320-335_and_hpos_mod_8_eq_2_or_3_and_rendering':10278,
+'++/hpos_eq_0-255_or_320-335_and_hpos_mod_8_eq_2_or_3_and_rendering':10110,
+
+'++hpos_eq_0-255_or_320-335_and_hpos_mod_8_eq_7_and_rendering':10111,
+
+'++hpos_eq_0-255_or_320-335_and_hpos_mod_8_eq_3_and_rendering_and_pclk1':2533,
+'++hpos_eq_0-255_or_320-335_and_hpos_mod_8_eq_5_and_rendering_and_pclk1':2543,
+'++hpos_eq_0-255_or_320-335_and_hpos_mod_8_eq_7_and_rendering_and_pclk1':2597,
+'++hpos_eq_0-255_or_320-335_and_hpos_mod_8_neq_7_and_rendering_and_pclk1':2607, // Note: 'neq', not 'eq'
+
+'++/hpos0_3':2611,
+
+'++++do_bg_render_ops':10165,
+'++++/do_bg_render_ops':2606,
+
+//
 // vramaddr_v incrementation logic
 //
 
@@ -469,7 +496,9 @@ vramaddr_v0_next:9752,
 '/rendering_disabled':5900,
 pclk0_2:6084,
 pclk1_2:1064,
+pclk1_3:2610,
 '++hpos0_2':589,
+'/read_2002_outupt_spr0_hit':1253,
 }
 
 for (var extra_node in nodenames_extra) {
