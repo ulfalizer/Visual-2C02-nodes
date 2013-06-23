@@ -392,6 +392,10 @@ spr_enable_out:1267,
 '++hpos_eq_256_to_319_and_hpos_mod_8_eq_2_and_rendering':1320,
 '++hpos_eq_256_to_319_and_hpos_mod_8_eq_7_and_rendering':1328,
 '++hpos_eq_256_to_319_and_hpos_mod_8_eq_5_and_rendering':1338,
+'+++hpos_eq_256_to_319_and_hpos_mod_8_eq_3_and_rendering':1305,
+'+++hpos_eq_256_to_319_and_hpos_mod_8_eq_2_and_rendering':1321,
+'+++hpos_eq_256_to_319_and_hpos_mod_8_eq_7_and_rendering':1330,
+'+++hpos_eq_256_to_319_and_hpos_mod_8_eq_5_and_rendering':1336,
 
 //
 // vramaddr_v incrementation logic
