@@ -407,7 +407,7 @@ spr_enable_out:1267,
 
 '++/hpos_eq_0-255_or_320-335_and_hpos_mod_8_eq_4_or_5_and_rendering':2593,
 '++/hpos_eq_0-255_or_320-335_and_rendering_4':10201,
-'++/hpos_eq_0-255_or_320-335_and_rendering_and_pclk1':2722,
+'++hpos_eq_0-255_or_320-335_and_rendering_and_pclk1':2722,
 '++/hpos_eq_0-255_or_320-335_and_hpos_mod_8_eq_6_or_7_and_rendering':2632,
 '+/hpos_eq_0-255_or_320-335_and_hpos_mod_8_eq_2_or_3_and_rendering':10278,
 '++/hpos_eq_0-255_or_320-335_and_hpos_mod_8_eq_2_or_3_and_rendering':10110,
