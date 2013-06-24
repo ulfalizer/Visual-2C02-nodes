@@ -502,6 +502,8 @@ attrib_l_selected_bit_sampled:10125,
 
 load_vramaddr_v_hscroll_next:2312,
 load_vramaddr_v_vscroll_next:2313,
+'/load_vramaddr_v_vscroll_next':9731,
+'+/load_vramaddr_v_vscroll_next':9711,
 
 // Incrementation logic for vramaddr_v. Each group below can be incremented
 // separately.
@@ -545,6 +547,8 @@ vramaddr_v0_carry_out:2127,
 '/vramaddr_v0_carry_in':2128,
 vramaddr_v0_carry_in:2129,
 
+'/(vramaddr_v_vpos_overflow_and_not_rendering)_or_(vramaddr_v_hpos_eq_31_and_rendering)':9554,
+
 // Holds the new value the vramaddr_v bits will have after being incremented
 // (if the carry in for the group is set)
 
@@ -581,6 +585,20 @@ vramaddr_v0_next:9752,
 'vramaddr_v2_out':1573,
 'vramaddr_v1_out':1565,
 'vramaddr_v0_out':1558,
+
+// Controls vramddr_v hscroll updating
+'/reading_or_writing_2007_or_(++hpos_eq_0-255_or_320-335_and_hpos_mod_8_eq_7_and_rendering)':9661,
+
+'+++hpos_eq_255_and_rendering':9473,
+'+++/hpos_eq_255_and_rendering':9403,
+'++++/hpos_eq_255_and_rendering':9463,
+'++++hpos_eq_255_and_rendering':2049,
+
+delayed_write_2006_low:2022, // TODO: Precise delay
+
+'/++++hpos_eq_255_and_rendering_or_delayed_write_2006_low':9454,
+
+'/reading_or_writing_2007_or_hpos_eq_255_and_rendering':9660,
 
 //
 // $2007 and read/write VRAM logic
