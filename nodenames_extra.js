@@ -472,6 +472,15 @@ attrib_h_bit_out:2731,
 '++attrib_l_bit_out':10254,
 '++attrib_h_bit_out':10253,
 
+'/attrib_buf7':10079,
+'/attrib_buf6':10083,
+'/attrib_buf5':10080,
+'/attrib_buf4':10084,
+'/attrib_buf3':10081,
+'/attrib_buf2':10085,
+'/attrib_buf1':10082,
+'/attrib_buf0':10086,
+
 //
 // vramaddr_v logic
 //
