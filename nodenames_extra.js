@@ -560,7 +560,7 @@ vramaddr_v0_next:9752,
 //
 
 rendering_4:10603,
-'++hpos0':10593,
+'++hpos0_3':10593,
 '/read_2007_output_vrambuf':10578,
 read_2007_output_vrambuf_2:2327,
 '+rendering_and_/hpos0_and_pclk0':10576,
