@@ -481,6 +481,21 @@ attrib_h_bit_out:2731,
 '/attrib_buf1':10082,
 '/attrib_buf0':10086,
 
+'+vramaddr_v1_out_2':10224,
+'+/vramaddr_v1_out_2':2648,
+'+vramaddr_v1_out_3':2637,
+'+/vramaddr_v6_out':2660,
+
+attrib_h_selected_bit:2671,
+attrib_h_selected_bit_sampled:10124,
+'/attrib_h_selected_bit_sampled':10077,
+'+/attrib_h_selected_bit_sampled':10250,
+
+attrib_l_selected_bit:2672,
+attrib_l_selected_bit_sampled:10125,
+'/attrib_l_selected_bit_sampled':10078,
+'+/attrib_l_selected_bit_sampled':10251,
+
 //
 // vramaddr_v logic
 //
