@@ -500,6 +500,9 @@ attrib_l_selected_bit_sampled:10125,
 // vramaddr_v logic
 //
 
+load_vramaddr_v_hscroll_next:2312,
+load_vramaddr_v_vscroll_next:2313,
+
 // Incrementation logic for vramaddr_v. Each group below can be incremented
 // separately.
 
