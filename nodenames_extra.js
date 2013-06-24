@@ -570,6 +570,60 @@ read_2007_output_vrambuf_2:2327,
 '_ab_13-8_eq_0_and_rendering_2':1266,
 '/read_2007_trigger':10601,
 
+read_2007_reg:10580,
+'/read_2007_reg':10585,
+// There's probably more going on here
+not_reading_2007_and_read_2007_reg:2825,
+'+not_reading_2007_and_read_2007_reg':10608,
+'++not_reading_2007_and_read_2007_reg':10600,
+'+/not_reading_2007_and_read_2007_reg':10605,
+'++/not_reading_2007_and_read_2007_reg':10606,
+'++not_reading_2007_and_read_2007_reg_2':10586,
+'+++not_reading_2007_and_read_2007_reg':10572,
+'+++/not_reading_2007_and_read_2007_reg':2792,
+'++++/not_reading_2007_and_read_2007_reg':10581,
+'++++not_reading_2007_and_read_2007_reg':2811,
+'+++++not_reading_2007_and_read_2007_reg':10574,
+'+++++/not_reading_2007_and_read_2007_reg':10566,
+
+// Delayed signals that go high after reading 2007, for ~one tick (TODO:
+// further investigation of ranges). _1 goes high first, then _2.
+// They probably never overlap.
+read_2007_ended_1:10568,
+read_2007_ended_2:2325,
+
+write_2007_reg:10583,
+'/write_2007_reg':10590,
+// There's probably more going on here
+not_writing_2007_and_write_2007_reg:2824,
+'+not_writing_2007_and_write_2007_reg':10607,
+'++not_writing_2007_and_write_2007_reg':10599,
+'+/not_writing_2007_and_write_2007_reg':10604,
+'++/not_writing_2007_and_write_2007_reg':10602,
+'++not_writing_2007_and_write_2007_reg':10575,
+'+++not_writing_2007_and_write_2007_reg':10579,
+'+++/not_writing_2007_and_write_2007_reg':2791,
+'++++/not_writing_2007_and_write_2007_reg':10573,
+'++++not_writing_2007_and_write_2007_reg':2810,
+'+++++not_writing_2007_and_write_2007_reg':10571,
+
+// Delayed signals that go high after reading 2007, for ~one tick (TODO:
+// further investigation of ranges). _1 goes high first, then _2.
+// They probably never overlap.
+write_2007_ended_1:2782,
+write_2007_ended_2:1275,
+'+write_2007_ended_2':2778,
+
+'/reading_or_writing_2007':2749,
+reading_or_writing_2007:2266,
+
+'/write_2007_ended_2':10587,
+'/write_2007_ended_2_':10592,
+
+'/read_2007_ended_1_or_write_2007_ended_1_or_+(rendering_and_/hpos0_and_pclk0)':2793,
+
+'/read_2007_ended_2_or_++(rendering_and_/hpos0)':10577,
+
 //
 // Misc.
 //
