@@ -556,7 +556,7 @@ vramaddr_v0_next:9752,
 'vramaddr_v0_out':1558,
 
 //
-// Bottom blob of logic (between pins)
+// $2007 and read/write VRAM logic
 //
 
 rendering_4:10603,
