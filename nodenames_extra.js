@@ -547,7 +547,10 @@ vramaddr_v0_carry_out:2127,
 '/vramaddr_v0_carry_in':2128,
 vramaddr_v0_carry_in:2129,
 
+// Controls vramaddr_v10_carry_in
 '/(vramaddr_v_vpos_overflow_and_not_rendering)_or_(vramaddr_v_hpos_eq_31_and_rendering)':9554,
+// Controls vramaddr_v11_carry_in
+'/(vramaddr_v10_carry_out_and_not_rendering)_or_(vramaddr_v_vpos_29_to_30_transition_and_rendering)':9476,
 
 // Holds the new value the vramaddr_v bits will have after being incremented
 // (if the carry in for the group is set)
