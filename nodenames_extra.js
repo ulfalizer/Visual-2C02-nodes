@@ -599,9 +599,15 @@ vramaddr_v0_next:9752,
 
 delayed_write_2006_low:2022, // TODO: Precise delay
 
-'/++++hpos_eq_255_and_rendering_or_delayed_write_2006_low':9454,
+'/(++++hpos_eq_255_and_rendering)_or_delayed_write_2006_low':9454,
 
 '/reading_or_writing_2007_or_hpos_eq_255_and_rendering':9660,
+
+'++hpos_eq_279_to_303_and_rendering_enabled':8865,
+'++/hpos_eq_279_to_303_and_rendering_enabled':8784,
+'++hpos_eq_279_to_303_and_rendering_enabled_2':8805,
+
+'/(++hpos_eq_279_to_303_and_rendering_enabled_and_vpos_eq_261)_or_delayed_write_2006_low':8945,
 
 //
 // $2007 and read/write VRAM logic
@@ -678,6 +684,7 @@ reading_or_writing_2007:2266,
 
 '/rendering_disabled':5900,
 pclk0_2:6084,
+pclk0_4:8920,
 pclk1_2:1064,
 pclk1_3:2610,
 '++hpos0_2':589,
