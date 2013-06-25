@@ -409,6 +409,8 @@ spr_enable_out:1267,
 '+++hpos_eq_256_to_319_and_hpos_mod_8_eq_7_and_rendering':1330,
 '+++hpos_eq_256_to_319_and_hpos_mod_8_eq_5_and_rendering':1336,
 
+// Pixel selection logic
+
 spr_out_pat1:8077,
 spr_out_pat0:8078,
 
@@ -440,6 +442,58 @@ spr_out_pat0:8078,
 '+/vramaddr_v2_out':1563,
 '+/vramaddr_v1_out':1557,
 '+/vramaddr_v0_out':1550,
+
+'/ab_in_palette_range_and_rendering_2':1535,
+
+'bg_pixel_opaque':1458,
+'+bg_pixel_opaque':7510,
+
+'spr_pixel_transparent':1406,
+'spr_pixel_opaque':7367,
+'+spr_pixel_opaque':7509,
+'+spr_and_bg_pixel_transparent':1499,
+'+/spr_and_bg_pixel_transparent':1493,
+'+spr_pixel_opaque_and_not_hidden_behind_bg_pixel':1408,
+'+/spr_pixel_opaque_and_not_hidden_behind_bg_pixel':1407,
+'++spr_pixel_opaque_and_not_hidden_behind_bg_pixel':7632,
+'++/spr_pixel_opaque_and_not_hidden_behind_bg_pixel':7829,
+// vramaddr_v4 is selected when the background palette hack is active (address
+// bus points in 3FXX range)
+'(++/spr_pixel_opaque_and_not_hidden_behind_bg_pixel)_or_/vramaddr_v4':10700,
+
+// After muxing. Selects between sprite and bg.
+selected_attr1:7577,
+selected_attr0:7578,
+selected_pat1:7579,
+selected_pat0:7580,
+'+/selected_attr1':7633,
+'+/selected_attr0':7634,
+'+/selected_pat1':7635,
+'+/selected_pat0':7636,
+'+selected_attr1':7823,
+'+selected_attr0':7824,
+'+selected_pat1':7825,
+'+selected_pat0':7826,
+'+selected_attr1_or_exp_in3_if_bg':10695,
+'+selected_attr0_or_exp_in2_if_bg':10696,
+'+selected_pat1_or_exp_in1_if_bg':10697,
+'+selected_pat0_or_exp_in0_if_bg':10698,
+'++selected_attr1_or_exp_in3_if_bg':8020,
+'++selected_attr0_or_exp_in2_if_bg':8021,
+'++selected_pat1_or_exp_in1_if_bg':8022,
+'++selected_pat0_or_exp_in0_if_bg':8023,
+'++/selected_attr1_or_exp_in3_if_bg':8024,
+'++/selected_attr0_or_exp_in2_if_bg':8025,
+'++/selected_pat1_or_exp_in1_if_bg':8026,
+'++/selected_pat0_or_exp_in0_if_bg':8027,
+
+// The vramaddr_v bits are selected when the background palette hack is active
+// (address bus points in 3FXX range)
+'+(++/spr_pixel_opaque_and_not_hidden_behind_bg_pixel)_or_/vramaddr_v4':1540,
+'(++/selected_attr1_or_exp_in3_if_bg)_or_/vramaddr_v3':8264,
+'(++/selected_attr0_or_exp_in2_if_bg)_or_/vramaddr_v2':8265,
+'(++/selected_pat1_or_exp_in1_if_bg)_or_/vramaddr_v1':8266,
+'(++/selected_pat0_or_exp_in0_if_bg)_or_/vramaddr_v0':8267,
 
 //
 // BG shifter logic
@@ -854,22 +908,21 @@ pclk1_3:2610,
 '+/vpos_eq_240-260':5793,
 '+/vpos_eq_240-260_2':5829,
 
-'/ab13':2017,
-'/ab12':2008,
-'/ab11':1992,
-'/ab10':1988,
-'/ab9':1985,
-'/ab8':1966,
-'/ab7':2043,
-'/ab6':2021,
-'/ab5':2019,
-'/ab4':2014,
-'/ab3':1994,
-'/ab2':1662,
-'/ab1':1626,
-'/ab0':1616,
-'/ale':1593,
-
+'/_ab13':2017,
+'/_ab12':2008,
+'/_ab11':1992,
+'/_ab10':1988,
+'/_ab9':1985,
+'/_ab8':1966,
+'/_ab7':2043,
+'/_ab6':2021,
+'/_ab5':2019,
+'/_ab4':2014,
+'/_ab3':1994,
+'/_ab2':1662,
+'/_ab1':1626,
+'/_ab0':1616,
+'/_ale':1593,
 }
 
 for (var extra_node in nodenames_extra) {
