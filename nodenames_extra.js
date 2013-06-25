@@ -56,6 +56,18 @@ var nodenames_extra = {
 '/enable_nmi_2':5731,
 
 //
+// Logic below position decoding logic
+//
+
+'/ab_in_palette_range_and_rendering':6048,
+'(++in_shift_range_or_read_2007_output_palette)_and_/pal_mono':1350,
+
+'+write_2007_ended_3':6741,
+'/(ab_in_palette_range_and_rendering_and_+write_2007_ended)':6728,
+'/(ab_in_palette_range_and_rendering_and_+write_2007_ended_2)':1276,
+
+
+//
 // Nodes related to video generation
 //
 
@@ -396,6 +408,27 @@ spr_enable_out:1267,
 '+++hpos_eq_256_to_319_and_hpos_mod_8_eq_2_and_rendering':1321,
 '+++hpos_eq_256_to_319_and_hpos_mod_8_eq_7_and_rendering':1330,
 '+++hpos_eq_256_to_319_and_hpos_mod_8_eq_5_and_rendering':1336,
+
+spr_out_pat1:8077,
+spr_out_pat0:8078,
+
+'spr_out_/prio':7831,
+'spr_out_/attr1':7832,
+'spr_out_/attr0':7833,
+'spr_out_/pat1_2':7834,
+'spr_out_/pat0_2':7835,
+
+'+spr_out_/prio':7638,
+'+spr_out_/attr1':7639,
+'+spr_out_/attr0':7640,
+'+spr_out_/pat1':7641,
+'+spr_out_/pat0':7642,
+
+'+spr_out_prio':7473,
+'+spr_out_attr1':1524,
+'+spr_out_attr0':1519,
+'+spr_out_pat1':1514,
+'+spr_out_pat0':1512,
 
 '+vramaddr_v4_out':1541,
 '+vramaddr_v3_out':1570,
@@ -746,8 +779,8 @@ read_2007_output_vrambuf_2:2327,
 '+rendering_and_/hpos0_and_pclk0':10576,
 '+not_rendering':10553,
 '+/not_rendering':10554,
-'ab_13-8_eq_1_and_rendering':10551,
-'ab_13-8_eq_1_and_rendering_2':1266,
+'ab_in_palette_range_and_rendering':10551, // ab_13-8 = 1
+'ab_in_palette_range_and_rendering_2':1266,
 '/read_2007_trigger':10601,
 
 read_2007_reg:10580,
