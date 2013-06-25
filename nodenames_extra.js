@@ -904,7 +904,7 @@ not_reading_2007_and_read_2007_reg:2825,
 
 // Delayed signals that go high after reading 2007, for ~one tick (TODO:
 // further investigation of ranges). _1 goes high first, then _2.
-// They probably never overlap.
+// They never overlap.
 read_2007_ended_1:10568,
 read_2007_ended_2:2325,
 
@@ -925,7 +925,7 @@ not_writing_2007_and_write_2007_reg:2824,
 
 // Delayed signals that go high after reading 2007, for ~one tick (TODO:
 // further investigation of ranges). _1 goes high first, then _2.
-// They probably never overlap.
+// They never overlap.
 write_2007_ended_1:2782,
 write_2007_ended_2:1275,
 '+write_2007_ended_2':2778,
