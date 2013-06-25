@@ -912,6 +912,16 @@ db_buf_read_2007_ended1:10292,
 db_buf_read_2007_ended0:10375,
 
 //
+// OAM column decoder
+//
+
+spr_addr2_out:50,
+spr_addr1_out:54,
+spr_addr0_out:62,
+
+// spr_ptr5-0 directly selects the column
+
+//
 // Misc.
 //
 
