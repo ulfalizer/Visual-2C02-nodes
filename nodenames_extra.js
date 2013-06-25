@@ -891,6 +891,26 @@ reading_or_writing_2007:2266,
 
 '/read_2007_ended_2_or_++(rendering_and_/hpos0)':10577,
 
+'/read_2007_ended_2':2326,
+
+'/inbuf7':9758,
+'/inbuf6':9795,
+'/inbuf5':9853,
+'/inbuf4':9902,
+'/inbuf3':9978,
+'/inbuf2':10206,
+'/inbuf1':10306,
+'/inbuf0':10417,
+
+db_buf_read_2007_ended7:9756,
+db_buf_read_2007_ended6:9785,
+db_buf_read_2007_ended5:9843,
+db_buf_read_2007_ended4:9892,
+db_buf_read_2007_ended3:9968,
+db_buf_read_2007_ended2:10176,
+db_buf_read_2007_ended1:10292,
+db_buf_read_2007_ended0:10375,
+
 //
 // Misc.
 //
