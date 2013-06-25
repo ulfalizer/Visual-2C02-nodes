@@ -349,6 +349,43 @@ spr_ptr_overflow:300,
 
 '+/spr_ptr_overflow':4067,
 
+// Reg
+spr_overflow_on_current_line:272,
+'/spr_overflow_on_current_line':460,
+
+copy_sprite_to_sec_oam:1047,
+'copy_sprite_to_sec_oam_buf_++hpos0':5880,
+'/copy_sprite_to_sec_oam_buf_++hpos0':5923,
+'+/copy_sprite_to_sec_oam_buf_++hpos0':5897,
+'+copy_sprite_to_sec_oam_buf_++hpos0':5866,
+'copy_sprite_to_sec_oam_buf_2x_++hpos0':5891,
+'/copy_sprite_to_sec_oam_buf_2x_++hpos0':5921,
+'+/copy_sprite_to_sec_oam_buf_2x_++hpos0':5896,
+'+copy_sprite_to_sec_oam_buf_2x_++hpos0':5867,
+'copy_sprite_to_sec_oam_buf_3x_++hpos0':5892,
+'/copy_sprite_to_sec_oam_buf_3x_++hpos0':5919,
+'+/copy_sprite_to_sec_oam_buf_3x_++hpos0':5895,
+'+copy_sprite_to_sec_oam_buf_3x_++hpos0':5865,
+
+// Stays low for a while after copy_sprite_to_sec_oam_buf goes high
+'/do_copy_sprite_to_sec_oam':1057,
+'do_copy_sprite_to_sec_oam':5853,
+
+perform_sprite_copy_to_sec_oam:118,
+'+perform_sprite_copy_to_sec_oam':4025,
+'/perform_sprite_copy_to_sec_oam':2931,
+perform_sprite_copy_to_sec_oam_and_rendering:156,
+'/perform_sprite_copy_to_sec_oam_and_rendering':231,
+
+// Guess
+sprite_in_range:1052,
+'/sprite_in_range':1056,
+'+/sprite_in_range':5878,
+'+sprite_in_range':5911,
+
+'+sprite_in_range_reg':1098,
+'+/sprite_in_range_reg':5873,
+
 // spr_ptr after passing through powered poly (labelled "protection" in Visual 2C02)
 '/spr_ptr4_':4152,
 '/spr_ptr3_':4151,
@@ -823,10 +860,10 @@ spr_d7_buf:8886,
 '+/(/spr_d1_buf_if_fetching_sprites_else_/_db1_buf)':9113,
 
 '++/hpos0_4':8806,
-'++hpos_mod_8_eq_1_and_rendering':8807,
-'++/hpos_mod_8_eq_1_and_rendering':8991,
-'+++/hpos_mod_8_eq_1_and_rendering':8783,
-'+++/hpos_mod_8_eq_1_and_rendering_and_pclk0':1870,
+'++hpos_mod_8_eq_1_and_rendering_2':8807,
+'++/hpos_mod_8_eq_1_and_rendering_2':8991,
+'+++/hpos_mod_8_eq_1_and_rendering_2':8783,
+'+++/hpos_mod_8_eq_1_and_rendering_and_pclk0_2':1870,
 '++/hpos_eq_256_to_319_and_rendering_4':1910,
 
 spr_loadflag_and_pclk0:8728,
