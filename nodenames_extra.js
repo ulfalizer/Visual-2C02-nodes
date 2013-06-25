@@ -337,6 +337,18 @@ spr_ptr_next0:4706,
 
 inc_spr_ptr:735,
 
+'/(++hpos_eq_256_to_319_and_rendering_and_+/hpos2)':730,
+
+'/read_2002_output_spr_overflow':3753,
+'/spr_overflow_out':3743,
+spr_overflow_output_high:522,
+
+// Reg
+spr_ptr_overflow:300,
+'/spr_ptr_overflow':4314,
+
+'+/spr_ptr_overflow':4067,
+
 // spr_ptr after passing through powered poly (labelled "protection" in Visual 2C02)
 '/spr_ptr4_':4152,
 '/spr_ptr3_':4151,
@@ -920,6 +932,14 @@ spr_addr1_out:54,
 spr_addr0_out:62,
 
 // spr_ptr5-0 directly selects the column
+
+//
+// OAM access logic
+//
+
+_io_db7_buf_not_rendering:3628,
+'/_io_db7_buf_not_rendering':476,
+_io_db7_buf_not_rendering_2:3736,
 
 //
 // Misc.
