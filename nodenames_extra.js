@@ -311,6 +311,11 @@ spr_addr0_:3498,
 'spr_addr_0-1_neq_3':120,
 '/spr_load_next_value_or_write_2003_reg':179,
 
+'+delayed_write_2004_value':2956,
+'+/delayed_write_2004_value':2960,
+'+delayed_write_2004_value_and_pclk0':397,
+'/(+delayed_write_2004_value_and_pclk0)':364,
+
 '/spr_ptr4':689,
 '/spr_ptr3':688,
 '/spr_ptr2':687,
