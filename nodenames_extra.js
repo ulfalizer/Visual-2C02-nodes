@@ -357,8 +357,8 @@ spr_ptr_overflow:300,
 '+/spr_ptr_overflow':4067,
 
 // Reg
-spr_overflow_on_current_line:272,
-'/spr_overflow_on_current_line':460,
+spr_overflow_on_cur_line:272,
+'/spr_overflow_on_cur_line':460,
 
 copy_sprite_to_sec_oam:1047,
 'copy_sprite_to_sec_oam_buf_++hpos0':5880,
