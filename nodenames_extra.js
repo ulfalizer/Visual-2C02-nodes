@@ -974,9 +974,35 @@ spr_addr0_out:62,
 // OAM access logic
 //
 
+// Common logic
+rendering_and_pclk0:237,
+'++/hpos0_5':280,
+// Goes high a while after write_2004_value (TODO: exact delay). Also shortened.
+delayed_write_2004_value:157,
+// This condition is used by the rendering logic to enable writes to the OAM
+// (to write to secondary OAM). Writes can also be enabled separately by
+// writing $2004.
+'in_visible_frame_and_rendering_and_not_spr_ptr_overflow_and_not_spr_overflow_on_cur_line_and_++hpos0_and_pclk1':261,
+oam_write_disable:334, // !261 && !delayed_write_2004_value
+
+// Logic next to spr_d7. It's probably the same for all bits.
 _io_db7_buf_not_rendering:3628,
 '/_io_db7_buf_not_rendering':476,
-_io_db7_buf_not_rendering_2:3736,
+set_spr_d7_in_oam:3736,
+clear_spr_d7_in_oam:3699,
+
+'+spr_d7':3377,
+'+/spr_d7':3375,
+'read_2004_enable_and_+spr_d7':3428,
+'read_2004_enable_and_+/spr_d7':3506,
+'/spr_d7':3431,
+'/spr_d7_reg':3364, // Forms a reg together with spr_d7
+'/spr_d7_reg_in':3508,
+
+spr_d7_int:273,
+'/spr_d7_int':253,
+spr_d7_int_reg:426,
+'/spr_d7_int_reg':3591,
 
 //
 // Misc.
