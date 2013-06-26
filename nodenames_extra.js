@@ -283,6 +283,8 @@ spr_addr_next2:3073,
 spr_addr_next1:3072,
 spr_addr_next0:3071,
 
+// Always high after writing 2004 (as that increments spr_addr). Also high
+// during sprite evaluation at points where spr_addr is bumped.
 spr_addr_load_next_value:288,
 
 // spr_addr after passing through powered poly (labelled "protection" in Visual 2C02)
@@ -376,11 +378,14 @@ copy_sprite_to_sec_oam:1047,
 '/do_copy_sprite_to_sec_oam':1057,
 'do_copy_sprite_to_sec_oam':5853,
 
-perform_sprite_copy_to_sec_oam:118,
-'+perform_sprite_copy_to_sec_oam':4025,
-'/perform_sprite_copy_to_sec_oam':2931,
-perform_sprite_copy_to_sec_oam_and_rendering:156,
-'/perform_sprite_copy_to_sec_oam_and_rendering':231,
+// Skips an out-of-range sprite during sprite evaluation
+spr_eval_skip_sprite:118,
+'+spr_eval_skip_sprite':4025,
+'/spr_eval_skip_sprite':2931,
+// Sets up the 'next' values for the spr_addr bits to clear spr_addr1-0 and
+// bump spr_addr7-2.
+spr_addr_clear_low_bump_high_setup:156,
+'/spr_addr_clear_low_bump_high_setup':231,
 
 // Guess
 sprite_in_range:1052,
