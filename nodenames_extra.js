@@ -41,8 +41,8 @@ var nodenames_extra = {
 // Line    261: 328-340
 // Lines 0-240: 0-269 and 328-340
 // Line    241: 0-269
-'++in_shift_range':5915,
-'++/in_shift_range':949,
+'++in_draw_range':5915,
+'++/in_draw_range':949,
 
 // VBlank flag
 
@@ -59,12 +59,12 @@ var nodenames_extra = {
 // Logic below position decoding logic
 //
 
-'/ab_in_palette_range_and_rendering':6048,
-'(++in_shift_range_or_read_2007_output_palette)_and_/pal_mono':1350,
+'/ab_in_palette_range_and_not_rendering':6048,
+'(++in_draw_range_or_read_2007_output_palette)_and_/pal_mono':1350,
 
 '+write_2007_ended_3':6741,
-'/(ab_in_palette_range_and_rendering_and_+write_2007_ended)':6728,
-'/(ab_in_palette_range_and_rendering_and_+write_2007_ended_2)':1276,
+'/(ab_in_palette_range_and_not_rendering_and_+write_2007_ended)':6728,
+'/(ab_in_palette_range_and_not_rendering_and_+write_2007_ended)_2':1276,
 
 
 //
@@ -511,7 +511,7 @@ spr_out_pat0:8078,
 '+/vramaddr_v1_out':1557,
 '+/vramaddr_v0_out':1550,
 
-'/ab_in_palette_range_and_rendering_2':1535,
+'/ab_in_palette_range_and_not_rendering_2':1535,
 
 'bg_pixel_opaque':1458,
 '+bg_pixel_opaque':7510,
@@ -901,8 +901,8 @@ read_2007_output_vrambuf_2:2327,
 '+rendering_and_/hpos0_and_pclk0':10576,
 '+not_rendering':10553,
 '+/not_rendering':10554,
-'ab_in_palette_range_and_rendering':10551, // ab_13-8 = 1
-'ab_in_palette_range_and_rendering_2':1266,
+'ab_in_palette_range_and_not_rendering':10551, // ab_13-8 = 1
+'ab_in_palette_range_and_not_rendering_2':1266,
 '/read_2007_trigger':10601,
 
 read_2007_reg:10580,
@@ -1022,6 +1022,60 @@ spr_d7_int:273,
 '/spr_d7_int':253,
 spr_d7_int_reg:426,
 '/spr_d7_int_reg':3591,
+
+//
+// Palette access logic
+//
+
+pal_d0_int:1287,
+'/pal_d0_int':1377,
+pal_d0_int_reg:6910,
+'/pal_d0_int_reg':6956,
+
+set_pal_d0:6731,
+clear_pal_d0:6651,
+
+pal_d0_out:7107,
+'/pal_d0_out':1215,
+
+'+/pal_d0_out':7225,
+'+/pal_d0_out_2':1282,
+'+pal_d0_out':6916,
+'++pal_d0_out_2':6851,
+'++/pal_d0_out':6810,
+'read_2007_output_palette_and_++pal_d0_out':6689,
+'/read_2007_output_palette_and_++pal_d0_out':6570,
+'++pal_d0_out':811, // Ouput
+
+'/pal_d1_out':6565,
+'/pal_d2_out':6566,
+'/pal_d3_out':6567,
+'/pal_d4_out':6564,
+'/pal_d5_out':6568,
+
+'+/pal_d1_out':6423,
+'+/pal_d2_out':6457,
+'+/pal_d3_out':6458,
+'+/pal_d4_out':6419,
+'+/pal_d5_out':6491,
+
+pclk0_5:6495,
+
+'+pal_d1_out':872, // Output
+'+pal_d2_out':810, // Output
+'+pal_d3_out':812, // Output
+'+pal_d4_out':1203,
+'++pal_d4_out':6417,
+'++/pal_d4_out':6493,
+'+++/pal_d4_out':1217,
+'+++pal_d4_out':1216,
+'+++/pal_d4_out_2':6335,
+'+pal_d5_out':6497,
+'++pal_d5_out':6418,
+'++/pal_d5_out':1249,
+'+++/pal_d5_out':1258,
+'+++pal_d5_out':1157,
+'+++/pal_d5_out_2':6266,
 
 //
 // Misc.
