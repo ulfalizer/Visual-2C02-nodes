@@ -1118,7 +1118,7 @@ pclk0_5:6495,
 
 // Chroma decoder
 
-// TODO: Additional conditions
+// These are also sunk by the Johnson counter above them
 'pal_d3-0_eq_3':316,
 'pal_d3-0_eq_A':322,
 'pal_d3-0_eq_5':317,
@@ -1132,6 +1132,8 @@ pclk0_5:6495,
 'pal_d3-0_eq_6':320,
 'pal_d3-0_eq_D':331,
 'pal_d3-0_eq_8':321,
+
+chroma_waveform_out:381,
 
 // Outputs driving luma
 
