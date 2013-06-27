@@ -1152,10 +1152,15 @@ chroma_waveform_out:381,
 //
 
 spr_loadFlag_and_pclk0:9497,
+
 '/(spr_loadFlag_and_pclk0)':9496,
 x_flip_flag_in_2:9487,
 '/x_flip_flag_in':1860,
 x_flip_flag_in:1842,
+
+'/spr0_prio':9583,
+'+/spr0_prio':9560,
+'+spr0_prio':1796,
 
 // After eventual x flip
 spr_d7_in:8874,
