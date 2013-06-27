@@ -1186,6 +1186,67 @@ spr_d0_in:9464,
 'spr_loadFlag_and_+++hpos_mod_64_eq_0-7_and_pclk0':2174,
 
 //
+// Sprite hpos counters
+//
+
+'/spr0_p7':2486,
+'/spr0_p6':2520,
+'/spr0_p5':2550,
+'/spr0_p4':2572,
+'/spr0_p3':2617,
+'/spr0_p2':2658,
+'/spr0_p1':2687,
+'/spr0_p0':2720,
+
+spr0_p7_out:9880,
+spr0_p6_out:9956,
+spr0_p5_out:10027,
+spr0_p4_out:2473,
+spr0_p3_out:2454,
+spr0_p2_out:2443,
+spr0_p1_out:2427,
+spr0_p0_out:2408,
+
+spr0_p7_borrow:2398,
+spr0_p6_borrow:2501,
+spr0_p5_borrow:2532,
+spr0_p5_borrow_in:2412,
+spr0_p4_borrow:2576, // Unused
+spr0_p3_borrow:2590,
+spr0_p2_borrow:2629,
+spr0_p1_borrow:2669,
+spr0_p0_borrow:2697,
+
+'/spr0_p6_borrow':9910,
+'/spr0_p5_borrow':9986,
+'/spr0_p4_borrow':10060,
+'/spr0_p3_borrow':10123,
+'/spr0_p2_borrow':10214,
+'/spr0_p1_borrow':10314,
+'/spr0_p0_borrow':10425,
+
+spr0_p7_next:9921,
+spr0_p6_next:9995,
+spr0_p5_next:10068,
+spr0_p4_next:10133,
+spr0_p3_next:10223,
+spr0_p2_next:10323,
+spr0_p1_next:10436,
+spr0_p0_next:10542,
+
+spr0_load_next:2434,
+
+'+++++hpos_eq_339_and_rendering_and_/spr0_p7_borrow_and_pclk0':2366,
+
+// Reg
+spr0_active:9804,
+'/spr0_active':2383,
+'spr0_active_and_++in_visible_frame_and_rendering':9781,
+'+spr0_active_and_++in_visible_frame_and_rendering':9771,
+'/(+spr0_active_and_++in_visible_frame_and_rendering)':1603,
+'+spr0_active_and_++in_visible_frame_and_rendering_and_pclk1':1838,
+
+//
 // Misc.
 //
 
