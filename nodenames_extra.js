@@ -1148,6 +1148,44 @@ chroma_waveform_out:381,
 '/(pal_d5-4_eq_2_and_+in_draw_range_and_++/pal_d3-1_eq_0)':1042,
 
 //
+// Sprite-related blocks in lower-left corner
+//
+
+spr_loadFlag_and_pclk0:9497,
+'/(spr_loadFlag_and_pclk0)':9496,
+x_flip_flag_in_2:9487,
+'/x_flip_flag_in':1860,
+x_flip_flag_in:1842,
+
+// After eventual x flip
+spr_d7_in:8874,
+spr_d6_in:8962,
+spr_d5_in:9032,
+spr_d4_in:9130,
+spr_d3_in:9204,
+spr_d2_in:9315,
+spr_d1_in:9400,
+spr_d0_in:9464,
+
+'/(spr_d7_in_and_+sprite_in_range_reg)':8875,
+'/(spr_d6_in_and_+sprite_in_range_reg)':8963,
+'/(spr_d5_in_and_+sprite_in_range_reg)':9033,
+'/(spr_d4_in_and_+sprite_in_range_reg)':9131,
+'/(spr_d3_in_and_+sprite_in_range_reg)':9219,
+'/(spr_d2_in_and_+sprite_in_range_reg)':9316,
+'/(spr_d1_in_and_+sprite_in_range_reg)':9401,
+'/(spr_d0_in_and_+sprite_in_range_reg)':9474,
+
+'++hpos_mod_64_eq_0-7':2228,
+'+++hpos_mod_64_eq_0-7':9707,
+'+++/hpos_mod_64_eq_0-7':2189,
+
+'spr_loadX_and_+++hpos_mod_64_eq_0-7_and_pclk0':2202,
+'spr_loadL_and_+++hpos_mod_64_eq_0-7_and_pclk0':1839,
+'spr_loadH_and_+++hpos_mod_64_eq_0-7_and_pclk0':1840,
+'spr_loadFlag_and_+++hpos_mod_64_eq_0-7_and_pclk0':2174,
+
+//
 // Misc.
 //
 
