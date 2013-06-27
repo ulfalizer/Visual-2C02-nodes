@@ -1148,7 +1148,7 @@ chroma_waveform_out:381,
 '/(pal_d5-4_eq_2_and_+in_draw_range_and_++/pal_d3-1_eq_0)':1042,
 
 //
-// Sprite-related blocks in lower-left corner
+// Sprite-loading logic
 //
 
 spr_loadFlag_and_pclk0:9497,
