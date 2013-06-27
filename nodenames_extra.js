@@ -1045,7 +1045,7 @@ pal_d0_out:7107,
 '++/pal_d0_out':6810,
 'read_2007_output_palette_and_++pal_d0_out':6689,
 '/read_2007_output_palette_and_++pal_d0_out':6570,
-'++pal_d0_out':811, // Ouput
+'+pal_d0_out':811, // Ouput
 
 '/pal_d1_out':6565,
 '/pal_d2_out':6566,
@@ -1077,17 +1077,57 @@ pclk0_5:6495,
 '+++pal_d5_out':1157,
 '+++/pal_d5_out_2':6266,
 
-// TODO: Has additional mystery cond
-'pal_d5-4_eq_3':1141,
-'pal_d5-4_eq_0':1142,
-'pal_d5-4_eq_1':1143,
-'pal_d5-4_eq_2':1140,
+'++pal_d0_out':573,
+'++pal_d1_out':752,
+'++pal_d2_out':644,
+'++pal_d3_out':559,
 
-'/pal_d5-4_eq_3':952,
-'/pal_d5-4_eq_0':991,
-'/pal_d5-4_eq_1':1085,
-'/pal_d5-4_eq_2':1042,
+'++pal_d0_out':573,
+'++pal_d1_out':752,
+'++pal_d2_out':644,
+'++pal_d3_out':559,
 
+'++/pal_d0_out':527,
+'++/pal_d1_out':548,
+'++/pal_d2_out':526,
+'++/pal_d3_out':3909,
+
+'+++/pal_d0_out':421,
+'+++/pal_d1_out':459,
+'+++/pal_d2_out':475,
+'+++/pal_d3_out':490,
+
+'+++pal_d0_out':3585,
+'+++pal_d1_out':473,
+'+++pal_d2_out':482,
+'+++pal_d3_out':504,
+
+'+++/pal_d0_out_2':3584,
+'+++/pal_d1_out_2':3627,
+'+++/pal_d2_out_2':3666,
+'+++/pal_d3_out_2':3752,
+
+'+++pal_d3-1_eq_0':542,
+'+++pal_d3-1_eq_0':542,
+'in_draw_range_and_++/pal_d3-1_eq-0':5423,
+'+in_draw_range_and_++/pal_d3-1_eq-0':5298,
+'/(+in_draw_range_and_++/pal_d3-1_eq-0)':918,
+'/(in_range_2_or_3_or_in_draw_range_and_++/pal_d3-1_eq_0)':921,
+'in_range_2_or_3_or_in_draw_range_and_++/pal_d3-1_eq_0':912,
+'+in_range_2_or_3_or_in_draw_range_and_++/pal_d3-1_eq_0':892,
+
+// Chroma decoder
+
+// Outputs driving luma
+'pal_d5-4_eq_3_and_+in_draw_range_and_++/pal_d3-1_eq_0':1141,
+'pal_d5-4_eq_0_and_+in_draw_range_and_++/pal_d3-1_eq_0':1142,
+'pal_d5-4_eq_1_and_+in_draw_range_and_++/pal_d3-1_eq_0':1143,
+'pal_d5-4_eq_2_and_+in_draw_range_and_++/pal_d3-1_eq_0':1140,
+
+'/(pal_d5-4_eq_3_and_+in_draw_range_and_++/pal_d3-1_eq_0)':952,
+'/(pal_d5-4_eq_0_and_+in_draw_range_and_++/pal_d3-1_eq_0)':991,
+'/(pal_d5-4_eq_1_and_+in_draw_range_and_++/pal_d3-1_eq_0)':1085,
+'/(pal_d5-4_eq_2_and_+in_draw_range_and_++/pal_d3-1_eq_0)':1042,
 
 //
 // Misc.
@@ -1101,7 +1141,12 @@ pclk1_3:2610,
 '++hpos0_2':589,
 '/read_2002_outupt_spr0_hit':1253,
 
+// Internal master clock for video generation
+clk0_int:218,
+'/clk0_int':245,
+
 // Corrections
+
 '+vpos_eq_240-260':5816,
 '+/vpos_eq_240-260':5793,
 '+/vpos_eq_240-260_2':5829,
