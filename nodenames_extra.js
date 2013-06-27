@@ -1118,7 +1118,23 @@ pclk0_5:6495,
 
 // Chroma decoder
 
+// TODO: Additional conditions
+'pal_d3-0_eq_3':316,
+'pal_d3-0_eq_A':322,
+'pal_d3-0_eq_5':317,
+'pal_d3-0_eq_C':323,
+'pal_d3-0_eq_F':405,
+'pal_d3-0_eq_7':318,
+'pal_d3-0_eq_E':324,
+'pal_d3-0_eq_9':325,
+'pal_d3-0_eq_4':326,
+'pal_d3-0_eq_B':319,
+'pal_d3-0_eq_6':320,
+'pal_d3-0_eq_D':331,
+'pal_d3-0_eq_8':321,
+
 // Outputs driving luma
+
 'pal_d5-4_eq_3_and_+in_draw_range_and_++/pal_d3-1_eq_0':1141,
 'pal_d5-4_eq_0_and_+in_draw_range_and_++/pal_d3-1_eq_0':1142,
 'pal_d5-4_eq_1_and_+in_draw_range_and_++/pal_d3-1_eq_0':1143,
