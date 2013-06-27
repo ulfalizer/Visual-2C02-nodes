@@ -1252,6 +1252,19 @@ spr0_active:9804,
 '+spr0_active_and_++in_visible_frame_and_rendering_and_pclk1':1838,
 
 //
+// Sprite priority
+//
+
+use_sprite_0:1612,
+use_sprite_1:1606,
+use_sprite_2:1604,
+use_sprite_3:1599,
+use_sprite_4:1597,
+use_sprite_5:1589,
+use_sprite_6:1585,
+use_sprite_7:1581,
+
+//
 // Misc.
 //
 
