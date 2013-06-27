@@ -1024,7 +1024,7 @@ spr_d7_int_reg:426,
 '/spr_d7_int_reg':3591,
 
 //
-// Palette access logic
+// Palette logic
 //
 
 pal_d0_int:1287,
@@ -1076,6 +1076,18 @@ pclk0_5:6495,
 '+++/pal_d5_out':1258,
 '+++pal_d5_out':1157,
 '+++/pal_d5_out_2':6266,
+
+// TODO: Has additional mystery cond
+'pal_d5-4_eq_3':1141,
+'pal_d5-4_eq_0':1142,
+'pal_d5-4_eq_1':1143,
+'pal_d5-4_eq_2':1140,
+
+'/pal_d5-4_eq_3':952,
+'/pal_d5-4_eq_0':991,
+'/pal_d5-4_eq_1':1085,
+'/pal_d5-4_eq_2':1042,
+
 
 //
 // Misc.
