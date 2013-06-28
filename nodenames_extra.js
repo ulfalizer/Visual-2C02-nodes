@@ -1,11 +1,14 @@
 var nodenames_extra = {
 
+// For most position-related nodes, '+' denotes buffering on pclk1 (half-cycle
+// delay from vpos change to value change), '++' buffering on pclk1 followed by
+// pclk0 (full-cycle delay - one pixel), etc.
+//
+// Things are less consistent for non-position-related nodes, where '+' means
+// buffered on either pclk0 or pclk1, '++' buffered twice, etc.
+
 //
 // vpos decoding logic.
-//
-// '+' denotes buffering on pclk1 (half-cycle delay from vpos change to value
-// change), '++' buffering on pclk1 followed by pclk0 (full-cycle delay - one
-// pixel), etc.
 //
 
 '+vpos_eq_241_2':5724,
