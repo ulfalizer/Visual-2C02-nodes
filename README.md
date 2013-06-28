@@ -9,5 +9,5 @@ nodenames\_extra.js file in the same folder as index.html, and add the following
 line after the line for nodenames.js in index.html:
 
 <pre>
-<script src="nodenames_extra.js"></script>
+&lt;script src="nodenames_extra.js"&gt;&lt;/script&gt;
 </pre>
