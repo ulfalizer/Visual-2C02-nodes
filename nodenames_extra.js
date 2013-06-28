@@ -1284,6 +1284,9 @@ clk0_int:218,
 after_reset_reg:1716,
 '/after_reset_reg':1707,
 
+vramaddr_v5_carry_in:2117,
+'/vramaddr_v5_carry_in_2':9736,
+
 // Corrections
 
 '+vpos_eq_240-260':5816,
