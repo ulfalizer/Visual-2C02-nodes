@@ -1280,6 +1280,10 @@ pclk1_3:2610,
 clk0_int:218,
 '/clk0_int':245,
 
+// Set by reset, cleared at line 261
+after_reset_reg:1716,
+'/after_reset_reg':1707,
+
 // Corrections
 
 '+vpos_eq_240-260':5816,
