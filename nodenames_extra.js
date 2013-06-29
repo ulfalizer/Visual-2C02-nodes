@@ -290,6 +290,8 @@ spr_addr_next0:3071,
 // during sprite evaluation at points where spr_addr is bumped.
 spr_addr_load_next_value:288,
 
+'+spr_addr_7_carry_out':508,
+
 // spr_addr after passing through powered poly (labelled "protection" in Visual 2C02)
 '/spr_addr7_':3423,
 '/spr_addr6_':3422,
