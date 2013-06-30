@@ -1399,6 +1399,21 @@ hvtog_inv:2943,
 '/hvtog_inv':240,
 
 //
+// ab0/db0 logic (ab7-0 are multiplexed as the VRAM data bus)
+//
+
+// Input (data)
+'/db0_int':9047,
+db0_int:1958,
+'/db0_int_2':9135,
+
+// Output (address)
+'_ab0_and_/_rd':1940,
+'low_if_rd_else_/ab0':9252,
+'low_if_rd_else_/ab0_2':9089,
+low_if_rd_else_ab0:2016,
+
+//
 // Misc.
 //
 
@@ -1442,6 +1457,9 @@ vramaddr_v5_carry_in:2117,
 '/_ab1':1626,
 '/_ab0':1616,
 '/_ale':1593,
+
+// The rd and wr pins are active low and should perhaps be called /rd and /wr,
+// but renaming them might mess with I/O glue logic
 }
 
 for (var extra_node in nodenames_extra) {
