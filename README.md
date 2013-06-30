@@ -11,3 +11,6 @@ line after the line for nodenames.js in index.html:
 <pre>
 &lt;script src="nodenames_extra.js"&gt;&lt;/script&gt;
 </pre>
+
+A tutorial I put together for reading circuits in Visual 6502/2C02/2A03
+[is available here](http://wiki.nesdev.com/w/index.php/Visual_circuit_tutorial).
