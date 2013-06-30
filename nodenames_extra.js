@@ -1368,6 +1368,37 @@ hpos1_next:3067,
 hpos0_next:2938,
 
 //
+// Address decoder and $2005/$2006 h/v toggle
+//
+
+'/_io_ab0':3205,
+'/_io_ab2':3206,
+'/_io_ab1':3207,
+'/_io_rw':3208,
+
+'_io_ab_2-0_eq_6_and_/io_rw_and_/hvtog':306,
+'_io_ab_2-0_eq_6_and_/io_rw_and_hvtog':327,
+'_io_ab_2-0_eq_5_and_/io_rw_and_/hvtog':344,
+'_io_ab_2-0_eq_5_and_/io_rw_and_hvtog':365,
+'_io_ab_2-0_eq_7_and_io_rw':378,
+'_io_ab_2-0_eq_7_and_/io_rw':396,
+'_io_ab_2-0_eq_4_and_/io_rw':419,
+'_io_ab_2-0_eq_3_and_/io_rw':433,
+'_io_ab_2-0_eq_2_and_io_rw':467,
+'_io_ab_2-0_eq_1_and_/io_rw':478,
+'_io_ab_2-0_eq_0_and_/io_rw':488,
+'_io_ab_2-0_eq_4_and_io_rw':507,
+
+'/write_2005_or_2006':250,
+toggle_hvtog:214,
+'/toggle_hvtog':254,
+'/hvtog':2996,
+// Writing $2005 or $2006 inverts hvtog into hvtog_inv, and then copies
+// hvtog_inv into hvtog.
+hvtog_inv:2943,
+'/hvtog_inv':240,
+
+//
 // Misc.
 //
 
