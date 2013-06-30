@@ -14,3 +14,4 @@ line after the line for nodenames.js in index.html:
 
 A tutorial I put together for reading circuits in Visual 6502/2C02/2A03
 [is available here](http://wiki.nesdev.com/w/index.php/Visual_circuit_tutorial).
+I also made a [high-level layout overview](http://wiki.nesdev.com/w/images/9/99/Ppuareas.png).
