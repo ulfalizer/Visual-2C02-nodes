@@ -1270,6 +1270,104 @@ use_sprite_6:1585,
 use_sprite_7:1581,
 
 //
+// Position counter logic
+//
+
+'/move_to_next_line':790,
+'+/move_to_next_line':4625,
+'+move_to_next_line':171,
+'+/move_to_next_line_2':4508,
+'+clear_vpos_next':172,
+
+'+vpos_eq_261':4471,
+'+/vpos_eq_261':4509,
+
+'/hpos_eq_340':2909,
+
+// Vertical position counter
+
+'/vpos8':4324,
+'/vpos7':4154,
+'/vpos6':3991,
+'/vpos5':3824,
+'/vpos4':126,
+'/vpos3':168,
+'/vpos2':125,
+'/vpos1':155,
+'/vpos0':153,
+
+vpos8_carry_out:639, // Unused
+'/vpos7_carry_out':4230,
+vpos7_carry_out:598,
+'/vpos6_carry_out':4069,
+vpos6_carry_out:553,
+'/vpos5_carry_out':3908,
+vpos5_carry_out:506,
+'/vpos5_carry_in':3751,
+vpos5_carry_in:107,
+vpos4_carry_out:462, // Unused
+'/vpos3_carry_out':3589,
+vpos3_carry_out:391,
+'/vpos2_carry_out':3424,
+vpos2_carry_out:333,
+'/vpos1_carry_out':3245,
+vpos1_carry_out:278,
+'/vpos0_carry_out':3070,
+vpos0_carry_out:220,
+
+vpos8_next:4228,
+vpos7_next:4066,
+vpos6_next:3906,
+vpos5_next:3748,
+vpos4_next:3587,
+vpos3_next:3414,
+vpos2_next:3243,
+vpos1_next:3068,
+vpos0_next:2939,
+
+// Horizontal position counter
+
+'/hpos8':4323,
+'/hpos7':4153,
+'/hpos6':3990,
+'/hpos5':3823,
+'/hpos4':149,
+'/hpos3':123,
+'/hpos2':150,
+'/hpos1':115,
+'/hpos0':152,
+
+hpos8_carry_out:637, // Unused
+'/hpos7_carry_out':4229,
+hpos7_carry_out:597,
+'/hpos6_carry_out':4068,
+hpos6_carry_out:552,
+'/hpos5_carry_out':3907,
+hpos5_carry_out:505,
+'/hpos_5_carry_in':3750,
+hpos5_carry_in:111,
+hpos4_carry_out:461, // Unused
+'/hpos3_carry_out':3588,
+hpos3_carry_out:390,
+'/hpos2_carry_out':3415,
+hpos2_carry_out:335,
+'/hpos1_carry_out':3244,
+hpos1_carry_out:277,
+'/hpos0_carry_out':3069,
+hpos0_carry_out:219,
+'/hpos0_carry_in':2941,
+
+hpos8_next:4227,
+hpos7_next:4065,
+hpos6_next:3905,
+hpos5_next:3747,
+hpos4_next:3586,
+hpos3_next:3413,
+hpos2_next:3242,
+hpos1_next:3067,
+hpos0_next:2938,
+
+//
 // Misc.
 //
 
