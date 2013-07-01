@@ -1121,6 +1121,32 @@ pclk0_5:6495,
 'in_range_2_or_3_or_in_draw_range_and_++/pal_d3-1_eq_0':912,
 '+in_range_2_or_3_or_in_draw_range_and_++/pal_d3-1_eq_0':892,
 
+// Chroma Johnson counter
+
+chroma_ring5:193,
+chroma_ring4:194,
+chroma_ring3:195,
+chroma_ring2:196,
+chroma_ring1:197,
+chroma_ring0:198,
+
+// Value saved during while master clock is low. Copied into next bit while
+// master clock is high.
+chroma_ring5_save:3029,
+chroma_ring4_save:3030,
+chroma_ring3_save:3031,
+chroma_ring2_save:3032,
+chroma_ring1_save:3033,
+chroma_ring0_save:3034,
+
+// Inverses delayed by half a master clock
+'/chroma_ring_delayed5':226,
+'/chroma_ring_delayed4':224,
+'/chroma_ring_delayed3':227,
+'/chroma_ring_delayed2':228,
+'/chroma_ring_delayed1':229,
+'/chroma_ring_delayed0':230,
+
 // Chroma decoder
 
 // These are also sunk by the Johnson counter above them
