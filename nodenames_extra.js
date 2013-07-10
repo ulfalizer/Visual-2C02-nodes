@@ -782,6 +782,12 @@ delayed_write_2006_low:2022, // TODO: Precise delay
 '/_ab13_2':9339,
 '+/_ab13_2':9136,
 _ab13:9221,
+vramaddr_v12_and_not_rendering:2065,
+
+// 1162 (+hpos_eq_0-255_or_320-335_and_hpos_mod_8_eq_2_or_3_and_rendering)
+// performs the attribute byte address calculation:
+// vramaddr_v:        yyy NNAB CDEG HIJK
+// resulting address:  10 NN11 11AB CGHI
 
 // Address signal generation
 ab12_out:9215,
