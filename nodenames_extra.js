@@ -776,9 +776,12 @@ delayed_write_2006_low:2022, // TODO: Precise delay
 'rendering_and_+hpos2':1963,
 'not_rendering_and_/vramaddr_v_13_out':2074,
 'rendering_or_vramaddr_v_13_out':2042,
-'/((+hpos_eq_0-255_or_320-335_and_hpos_mod_8_eq_2_or_3_and_rendering)_or_(rendering_and_+hpos2))':2047,
-'(+hpos_eq_0-255_or_320-335_and_hpos_mod_8_eq_2_or_3_and_rendering)_or_(rendering_and_+hpos2)':9220,
-'/((+hpos_eq_0-255_or_320-335_and_hpos_mod_8_eq_2_or_3_and_rendering)_or_(rendering_and_+hpos2)_or_write_2007_ended_2)':2045,
+'/(rendering_and_((+hpos_eq_0-255_or_320-335_and_hpos_mod_8_eq_2_or_3)_or_+hpos2))':2047,
+'rendering_and_((+hpos_eq_0-255_or_320-335_and_hpos_mod_8_eq_2_or_3)_or_+hpos2)':9220,
+'/((rendering_and_((+hpos_eq_0-255_or_320-335_and_hpos_mod_8_eq_2_or_3)_or_+hpos2))_or_write_2007_ended)':2045,
+'/_ab13_2':9339,
+'+/_ab13_2':9136,
+_ab13:9221,
 
 // Address signal generation
 ab12_out:9215,
