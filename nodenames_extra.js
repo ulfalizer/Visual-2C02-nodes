@@ -641,6 +641,33 @@ attrib_h_bit_out:2731,
 '/attrib_buf1':10082,
 '/attrib_buf0':10086,
 
+// Attribute bit selection logic:
+//
+// v:
+//
+// 432 10 98765 43210
+// yyy NN YYYYY XXXXX
+// ||| || ||||| +++++-- coarse X scroll
+// ||| || +++++-------- coarse Y scroll
+// ||| ++-------------- nametable select
+// +++----------------- fine Y scroll
+//
+// http://wiki.nesdev.com/w/index.php/PPU_attribute_tables
+// ,---+---+---+---.
+// |   |   |   |   |
+// + D1-D0 + D3-D2 +
+// |   |   |   |   |
+// +---+---+---+---+
+// |   |   |   |   |
+// + D5-D4 + D7-D6 +
+// |   |   |   |   |
+// `---+---+---+---'
+//
+// D1-D0 selected if /v1 and /v6
+// D3-D2 selected if  v1 and /v6
+// D5-D4 selected if /v1 and  v6
+// D7-D6 selected if  v1 and  v6
+
 '+vramaddr_v1_out_2':10224,
 '+/vramaddr_v1_out_2':2648,
 '+vramaddr_v1_out_3':2637,
