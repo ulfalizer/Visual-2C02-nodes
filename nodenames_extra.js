@@ -436,6 +436,14 @@ spr_addr_7_or_spr_ptr4_out:3701,
 '/spr_addr_6_or_spr_ptr3_out':510,
 '/spr_addr_7_or_spr_ptr4_out':545,
 
+// OAM row selector inverses
+
+spr_addr_7_or_spr_ptr4_out_2:1026,
+spr_addr_6_or_spr_ptr3_out_2:1034,
+spr_addr_5_or_spr_ptr2_out_2:1053,
+spr_addr_4_or_spr_ptr1_out_2:1071,
+spr_addr_3_or_spr_ptr0_out_2:1081,
+
 // Logic below subtractor
 
 '+spr_d7_2':5904,
