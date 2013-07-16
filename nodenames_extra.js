@@ -371,6 +371,12 @@ spr_ptr_overflow:300,
 '+/spr_ptr_overflow':4067,
 
 // Reg
+//  - Set by spr_addr overflow
+//  - Set by set_spr_overflow
+//  - Cleared during sec. OAM clear (if rendering is enabled)
+//  - Used by
+//   * OAM access logic
+//   * Sprite evaluation logic
 spr_overflow_on_cur_line:272,
 '/spr_overflow_on_cur_line':460,
 
