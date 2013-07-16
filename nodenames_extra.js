@@ -350,14 +350,14 @@ spr_ptr_next0:4706,
 inc_spr_ptr:735,
 
 '+++hpos_lt_64_and_rendering':4551,
-'/spr_eval_skip_sprite_2':4303,
-'+/spr_eval_skip_sprite':4550,
-'/((+++hpos_lt_64_and_rendering)_or_+/spr_eval_skip_sprite)':4630,
-'((+++hpos_lt_64_and_rendering)_or_+/spr_eval_skip_sprite)_and_/+hpos0':4627,
+spr_eval_copy_sprite_2:4303,
+'+spr_eval_copy_sprite':4550,
+'/((+++hpos_lt_64_and_rendering)_or_+spr_eval_copy_sprite)':4630,
+'((+++hpos_lt_64_and_rendering)_or_+spr_eval_copy_sprite)_and_/+hpos0':4627,
 
 // First condition (before the OR) deals with increments during sprite
 // evaluation. Second condition deals with increments during sprite loading.
-'/((((+++hpos_lt_64_and_rendering)_or_+/spr_eval_skip_sprite)_and_/+hpos0)_OR_(++hpos_eq_256_to_319_and_rendering_and_/+hpos2))':730,
+'/((((+++hpos_lt_64_and_rendering)_or_+spr_eval_copy_sprite)_and_/+hpos0)_OR_(++hpos_eq_256_to_319_and_rendering_and_/+hpos2))':730,
 
 '++(hpos_eq_63_255_or_339_and_rendering)_or_spr_ptr_overflow':4705,
 '+(++(hpos_eq_63_255_or_339_and_rendering)_or_spr_ptr_overflow)':4624,
@@ -400,10 +400,10 @@ copy_sprite_to_sec_oam:1047,
 '/do_copy_sprite_to_sec_oam':1057,
 'do_copy_sprite_to_sec_oam':5853,
 
-// Skips an out-of-range sprite during sprite evaluation
-spr_eval_skip_sprite:118,
-'+spr_eval_skip_sprite':4025,
-'/spr_eval_skip_sprite':2931,
+// Copies in-range sprites to the secondary OAM during sprite evaluation
+'/spr_eval_copy_sprite':118,
+'+/spr_eval_copy_sprite':4025,
+spr_eval_copy_sprite:2931,
 // Sets up the 'next' values for the spr_addr bits to clear spr_addr1-0 and
 // bump spr_addr7-2.
 spr_addr_clear_low_bump_high_setup:156,
