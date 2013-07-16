@@ -374,13 +374,13 @@ spr_ptr_overflow:300,
 
 // Reg
 //  - Set by spr_addr overflow
-//  - Set by set_spr_overflow
+//  - Set by sec_oam_overflow
 //  - Cleared during sec. OAM clear (if rendering is enabled)
 //  - Used by
 //   * OAM access logic
 //   * Sprite evaluation logic
-spr_overflow_on_cur_line:272,
-'/spr_overflow_on_cur_line':460,
+end_of_oam_or_sec_oam_overflow:272,
+'/end_of_oam_or_sec_oam_overflow':460,
 
 copy_sprite_to_sec_oam:1047,
 'copy_sprite_to_sec_oam_buf_++hpos0':5880,
@@ -1535,6 +1535,10 @@ vramaddr_v5_carry_in:2117,
 '/_ab1':1626,
 '/_ab0':1616,
 '/_ale':1593,
+
+// Renamed from set_spr_overflow. Goes high when the secondary OAM is full and
+// an in-range sprite is detected.
+sec_oam_overflow:3910,
 
 // The rd and wr pins are active low and should perhaps be called /rd and /wr,
 // but renaming them might mess with I/O glue logic
