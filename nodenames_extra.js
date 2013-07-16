@@ -1064,7 +1064,7 @@ delayed_write_2004_value:157,
 // This condition is used by the rendering logic to enable writes to the OAM
 // (to write to secondary OAM). Writes can also be enabled separately by
 // writing $2004.
-'in_visible_frame_and_rendering_and_not_spr_ptr_overflow_and_not_spr_overflow_on_cur_line_and_++hpos0_and_pclk1':261,
+'in_visible_frame_and_rendering_and_/spr_ptr_overflow_and_/spr_overflow_on_cur_line_and_++hpos0_and_pclk1':261,
 oam_write_disable:334, // !261 && !delayed_write_2004_value
 
 // Logic next to spr_d7. It's probably the same for all bits.
