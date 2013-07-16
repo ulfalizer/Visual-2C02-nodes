@@ -352,13 +352,15 @@ inc_spr_ptr:735,
 '+++hpos_lt_64_and_rendering':4551,
 '/spr_eval_skip_sprite_2':4303,
 '+/spr_eval_skip_sprite':4550,
-'spr_eval_skip_sprite_and_/+++hpos_lt_64_and_rendering':4630,
-'/(spr_eval_skip_sprite_and_/+++hpos_lt_64_and_rendering)_and_/+hpos0':4627,
-// Possibly incorrect - simplify...
-'/(++hpos_eq_256_to_319_and_rendering_and_+/hpos2)_and_((spr_eval_skip_sprite_and_/+++hpos_lt_64_and_rendering)_or_/+hpos0)':730,
+'/((+++hpos_lt_64_and_rendering)_or_+/spr_eval_skip_sprite)':4630,
+'((+++hpos_lt_64_and_rendering)_or_+/spr_eval_skip_sprite)_and_/+hpos0':4627,
 
-'/((++/hpos_eq_63_255_or_339_and_rendering)_or_/spr_ptr_overflow)':4705,
-'+/((++/hpos_eq_63_255_or_339_and_rendering)_or_/spr_ptr_overflow)':4624,
+// First condition (before the OR) deals with increments during sprite
+// evaluation. Second condition deals with increments during sprite loading.
+'/((((+++hpos_lt_64_and_rendering)_or_+/spr_eval_skip_sprite)_and_/+hpos0)_OR_(++hpos_eq_256_to_319_and_rendering_and_/+hpos2))':730,
+
+'++(hpos_eq_63_255_or_339_and_rendering)_or_spr_ptr_overflow':4705,
+'+(++(hpos_eq_63_255_or_339_and_rendering)_or_spr_ptr_overflow)':4624,
 
 '/read_2002_output_spr_overflow':3753,
 '/spr_overflow_out':3743,
