@@ -407,7 +407,7 @@ spr_eval_skip_sprite:118,
 spr_addr_clear_low_bump_high_setup:156,
 '/spr_addr_clear_low_bump_high_setup':231,
 
-// High if y - scanline < 8 (or 16 if using 8x16 sprites). Checks if the upper
+// High if scanline - y < 8 (or 16 if using 8x16 sprites). Checks if the upper
 // 5 (or 4) bits of the difference are all zero, and avoids a false positive by
 // also checking if y >= 128 while scanline < 128 (without this check, y being
 // sufficiently larger than scanline would trigger the false positive).
