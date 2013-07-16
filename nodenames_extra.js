@@ -413,6 +413,9 @@ spr_addr_clear_low_bump_high_setup:156,
 // 5 (or 4) bits of the difference are all zero, and avoids a false positive by
 // also checking if y >= 128 while scanline < 128 (without this check, y being
 // sufficiently larger than scanline would trigger the false positive).
+//
+// Driven low while copying the last three bytes of a sprite, to prevent other
+// sprite data from being interpreted as the y coordinate.
 sprite_in_range:1052,
 '/sprite_in_range':1056,
 '+/sprite_in_range':5878,
