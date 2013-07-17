@@ -1073,7 +1073,7 @@ _io_db7_buf_not_rendering:3628,
 set_spr_d7_in_oam:3736,
 clear_spr_d7_in_oam:3699,
 
-'+spr_d7':3377,
+'+spr_d7_3':3377,
 '+/spr_d7':3375,
 'read_2004_enable_and_+spr_d7':3428,
 'read_2004_enable_and_+/spr_d7':3506,
