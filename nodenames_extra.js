@@ -1068,8 +1068,8 @@ delayed_write_2004_value:157,
 oam_write_disable:334, // !261 && !delayed_write_2004_value
 
 // Logic next to spr_d7. It's probably the same for all bits.
-_io_db7_buf_not_rendering:3628,
-'/_io_db7_buf_not_rendering':476,
+'either_(_io_db7_and_not_rendering)_or_+spr_d7':3628,
+'/either_(_io_db7_and_not_rendering)_or_+spr_d7':476,
 set_spr_d7_in_oam:3736,
 clear_spr_d7_in_oam:3699,
 
